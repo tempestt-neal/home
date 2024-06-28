@@ -23,15 +23,15 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Tempestt J. Neal"
-  pronouns         : "she/her"  
+  pronouns         : # "she/her"  
   bio              : "Cybersecurity, biometrics, and applied mobile-based sensing researcher"
   location         : "Tampa, FL"
-  employer         : "Associate Professor at University of South Florida, Department of Computer Science and Engineering"
+  employer         : "Associate Professor, University of South Florida" #, Department of Computer Science and Engineering"
   uri              : # URL
   email            : "tjneal@usf.edu" 
 
   # Academic websites
-  arxiv            : "https://arxiv.org/search/cs?query=Neal%2C+Tempestt&searchtype=author&abstracts=show&order=-announced_date_first&size=50"
+  arxiv            : # "https://arxiv.org/search/cs?query=Neal%2C+Tempestt&searchtype=author&abstracts=show&order=-announced_date_first&size=50"
   googlescholar    : "https://scholar.google.com/citations?user=GopCh2QAAAAJ&hl=en&oi=ao"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-6807-6277"
@@ -43,12 +43,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -200,14 +200,20 @@ kramdown:
 
 # Collections
 collections:
+  research:
+    output: true
+    permalink: /:collection/:path/
+  lab:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
@@ -269,6 +275,23 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _lab
+  - scope:
+      path: ""
+      type: lab
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
 
 
 # Sass/SCSS
