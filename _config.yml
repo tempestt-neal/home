@@ -22,11 +22,11 @@ repository               : "tempestt-neal/home"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Tempestt Neal"
+  name             : "Tempestt J. Neal"
   pronouns         : "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "University of South Florida"
+  bio              : "Cybersecurity, biometrics, and applied mobile-based sensing researcher"
+  location         : "Tampa, FL"
+  employer         : "Associate Professor at University of South Florida, Department of Computer Science and Engineering"
   uri              : # URL
   email            : "tjneal@usf.edu" 
 
