@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Tempestt J. Neal"
-title_separator          : "-"
+title_separator          : " - "
 name                     : &name "Tempestt J. Neal"
 description              : &description "personal description"
 url                      : "https://tempestt-neal.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
