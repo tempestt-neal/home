@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Tempestt J. Neal"
   pronouns         : # "she/her"  
-  bio              : "Cybersecurity, biometrics, and applied mobile-based sensing researcher"
+  bio              : "Associate professor at the University of South Florida. Cybersecurity, biometrics, and applied mobile-based sensing researcher"
   location         : "Tampa, FL"
-  employer         : "Associate Professor, University of South Florida" #, Department of Computer Science and Engineering"
+  employer         : # "Associate Professor, University of South Florida" #, Department of Computer Science and Engineering"
   uri              : # URL
   email            : "tjneal@usf.edu" 
 
