@@ -32,21 +32,21 @@ Students will demonstrate the ability to:
 
 | Week | Topic                                                                                     |
 |------|-------------------------------------------------------------------------------------------|
-| 1    | Biometric Foundations & Introduction to Python                                            |
-| 2    | Overview of Machine Learning Algorithms                                                   |
-| 3    | Performance Measures                                                                      |
-| 4    | Fusion & Multimodality                                                                    |
-| 5    | Face Recognition                                                                          |
-| 6    | HW2/HW3 Discussion & Project Introduction                                                 |
+| 1    | Biometric Foundations                                              |
+| 2    |                    Introduction to Python                                |
+| 3    |                                  Overview of Machine Learning Algorithms                                     |
+| 4    |                  Performance Measures                                                   |
+| 5    |                Fusion & Multimodality                                                           |
+| 6    |          Face Recognition                                       |
 | 7    | Local Binary Patterns & Principal Component Analysis                                      |
 | 8    | Keystroke and Touch Dynamics & Gait and Movement Recognition                              |
-| 9    | ***Projects***                                                                            |
-| 10   | ***Spring Break***                                                                        |
+| 9    | Project Overview and Discussion                                                                            |
+| 10   | Spring Break                                                                        |
 | 11   | Fingerprint Recognition                                                                   |
-| 12   | Soft Biometrics & Projects                                                                |
-| 13   | Bias & Projects                                                                           |
-| 14   | Biometric System Attacks & Projects                                                       |
-| 15   | Biometric Applications & Projects                                                         |
+| 12   | Soft Biometrics                                                                |
+| 13   | Bias                                                                            |
+| 14   | Biometric System Attacks                                                        |
+| 15   | Biometric Applications                                                          |
 | 16   | Test Free Week and Guest Lectures                                                         |
 | 17   | Project Presentations                                                                     |
 
