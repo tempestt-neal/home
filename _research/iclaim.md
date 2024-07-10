@@ -1,6 +1,6 @@
 ---
 title: "Inclusive Cybersecurity Through the Lens of Accessible Identity and Access Management (I-CLAIM)"
-excerpt: "Increasing cybersecurity awareness among historically excluded racial/ethnic groups<br/><img src='/images/iclaim-logo.jpg'>"
+excerpt: "Increasing cybersecurity awareness among historically excluded racial/ethnic groups<br/><img src='../images/iclaim-logo.jpg'>"
 collection: portfolio
 ---
 
@@ -14,7 +14,7 @@ Additionally, the project will develop inclusive cybersecurity education materia
 
 ### Funding
 
-This project is funded by the U.S. National Science Foundation.<br/><img src='/images/nsf-logo.png'>
+This project is funded by the U.S. National Science Foundation.<br/><img src='../images/nsf-logo.png'>
 
 ### Publications
 
