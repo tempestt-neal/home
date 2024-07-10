@@ -1,13 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Analysis of the evolution of COVID-19 disease understanding through temporal knowledge graphs"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+permalink: /publication/2023-08-02
+excerpt: 'The COVID-19 pandemic highlighted the inefficient use of existing biological knowledge and the lack of assimilation and analysis of new information as barriers to rapid response. Overcoming these challenges could revolutionize global preparedness for future pandemics. This article introduces a novel knowledge graph application that serves as both a repository and an analytics platform, extracting time-sensitive insights to understand disease dynamics and researchers' evolving knowledge, demonstrated through the analysis of COVID-19 scholarly articles.'
+date: 2023-08-02
+venue: 'Front. Res. Metr. Anal.'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Negro A, Montagna F, Teng MN, Neal T, Thomas S, King S and Khan R (2023) Analysis of the evolution of COVID-19 disease understanding through temporal knowledge graphs. Front. Res. Metr. Anal. 8:1204801. doi: 10.3389/frma.2023.1204801'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
