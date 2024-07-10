@@ -9,37 +9,27 @@ redirect_from:
 
 {% include base_path %}
 
+[Download my full CV]()
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Engineering, University of Florida, 2018 
+* M.S. in Computer Science, Clemson University, 2014
+* B.S. in Computer Science, Minor in Mathematics, South Carolina State University, 2012
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Current Appointment: Associate Professor
+  * University of South Florida
+  * Department of Computer Science and Engineering
+ 
+* 2018 - 2024: Assistant Professor
+  * University of South Florida
+  * Department of Computer Science and Engineering
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2013 - 2018: Research Assistant
+  * Clemson University (Human-Centered Computing), University of Florida (Computer Engineering)
+  * Supervisor: Professor Damon Woodard
 
 Publications
 ======
@@ -58,7 +48,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
