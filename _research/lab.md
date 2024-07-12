@@ -1,12 +1,12 @@
 ---
 title: "CIBeR Lab"
-excerpt: "The Cyber Identity and Behavior Research Lab<br/><img src='../images/ciber-logo.png'>"
+excerpt: "The Cyber Identity and Behavior Research Lab<br/><img src='../images/Ciber-horizontal.png'>"
 collection: portfolio
 ---
 
 ## The CIBeR Group
 <div style="display: flex; justify-content: space-between;">
-    <img src="path_to_image1.jpg" alt="Member 1" width="200"/>
+    <img src="../../images/hoorad.jpeg" alt="Member 1" width="200"/>
     <img src="path_to_image2.jpg" alt="Member 2" width="200"/>
     <img src="path_to_image3.jpg" alt="Member 3" width="200"/>
     <img src="path_to_image4.jpg" alt="Member 4" width="200"/>
