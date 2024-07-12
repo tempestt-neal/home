@@ -1,8 +1,13 @@
 ---
 title: "CIBeR Lab"
-excerpt: "The Cyber Identity and Behavior Research Lab<br/><img src='../images/Ciber-horizontal.png'>"
+excerpt: "The Cyber Identity and Behavior Research (CIBeR) Lab explores inclusivity in cybersecurity systems, biometrics, and behavior recognition in interdisciplinary applications.<br/><img src='../images/Ciber-horizontal.png'>"
 collection: portfolio
 ---
+
+Dr. Neal leads the Cyber Identity and Behavior Research (CIBeR) Lab. Our research is inspired by the pervasive nature of today's technologies and how smart sensing, enabled by these technologies, can be used to understand human interactions with technology, interpersonal interactions, and behaviors in various environments. We primarily use applied artificial intelligence and human-centered computing techniques to explore:
+
+- Usable and inclusive cybersecurity systems for personally-owned computing devices, with a particular focus on identity and access management
+- Interdisciplinary applications of human behavior analysis through smart sensing
 
 ## The CIBeR Group
 <div style="display: flex; justify-content: space-between;">
@@ -22,7 +27,7 @@ collection: portfolio
 ## Joining the Lab
 
 ### Open Positions
-Currently, we do not have funding for additional PhD students and can only welcome you if you have a fellowship.
+Currently, we do not have funding for additional Ph.D. students and can only welcome you if you have a fellowship.
 
 ### Interested Ph.D. Students
 Ph.D. students with experience in one or more of the following research areas are encouraged to send their application materials (listed below) to Dr. Neal via e-mail.
