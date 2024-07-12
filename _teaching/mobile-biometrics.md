@@ -1,5 +1,5 @@
 ---
-title: "CAP 4103/ CAP 6101"
+title: "CAP 4103/CAP 6101"
 collection: teaching
 type: "Mobile Biometrics"
 permalink: /teaching/mobile-biometrics
