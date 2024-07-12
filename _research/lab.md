@@ -11,15 +11,15 @@ Dr. Neal leads the Cyber Identity and Behavior Research (CIBeR) Lab. Our researc
 
 ## The CIBeR Group
 <div style="display: flex; justify-content: space-between;">
-    <img src="../../images/hoorad.jpeg" alt="Member 1" width="200"/>
-    <img src="../../images/meghna.jpg" alt="Member 2" width="200"/>
-    <img src="../../images/sayde.png" alt="Member 3" width="200"/>
+    <img src="../../images/hoorad.jpeg" alt="Member 1" width="200" style="margin-right: 20px;"/>/>
+    <img src="../../images/meghna.jpg" alt="Member 2" width="200" style="margin-right: 20px;"/>/>
+    <img src="../../images/sayde.png" alt="Member 3" width="200" style="margin-right: 20px;"/>/>
     <img src="../../images/wilson.jpeg" alt="Member 4" width="200"/>
 </div>
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="../../parush.jpg" alt="Member 5" width="200"/>
-    <img src="../../mohamed.jpeg" alt="Member 6" width="200"/>
+    <img src="../../parush.jpg" alt="Member 5" width="200" style="margin-right: 20px;"/>/>
+    <img src="../../mohamed.jpeg" alt="Member 6" width="200" style="margin-right: 20px;"/>/>
     <img src="../../georgia.jpg" alt="Member 7" width="200"/>
     <!--<img src="path_to_image8.jpg" alt="Member 8" width="200"/>-->
 </div>
