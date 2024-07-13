@@ -10,16 +10,16 @@ author_profile: true
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20px; /* Adjust the gap between images as needed */
   }
-  .gallery img {
-    width: 22%; /* Adjust percentage as needed */
-    margin-bottom: 20px;
-    border-radius: 15px; /* Adjust curvature as needed */
-  }
-  .caption {
+  .gallery-item {
+    flex-basis: calc(25% - 20px); /* Adjust percentage and subtract gap size */
+    box-sizing: border-box;
     text-align: center;
-    width: 22%; /* Match image width */
-    margin-bottom: 40px;
+  }
+  .gallery-item img {
+    width: 100%;
+    border-radius: 15px; /* Adjust curvature as needed */
   }
 </style>
 
@@ -33,25 +33,21 @@ The Cyber Identity and Behavior Research (CIBeR) Lab primarily uses applied arti
 
 ## The CIBeR Group
 <div class="gallery">
-  <div>
+  <div class="gallery-item">
     <img src="../images/hoorad.jpeg" alt="Description of Image 1">
-    <div class="caption"> Ph.D. Student </div>
-
-    <img src="../images/hoorad.jpeg" alt="Description of Image 1">
-    <div class="caption"> Ph.D. Student </div>
-    
+    <div>Ph.D. Student</div>
   </div>
-  <div>
-    <img src="../images/hoorad.jpeg" alt="Description of Image 2">
-    <div class="caption">Caption for Image 2</div>
+  <div class="gallery-item">
+    <img src="path_to_image2.jpg" alt="Description of Image 2">
+    <div>Caption for Image 2</div>
   </div>
-  <div>
-    <img src="../images/hoorad.jpeg" alt="Description of Image 3">
-    <div class="caption">Caption for Image 3</div>
+  <div class="gallery-item">
+    <img src="path_to_image3.jpg" alt="Description of Image 3">
+    <div>Caption for Image 3</div>
   </div>
-  <div>
-    <img src="../images/hoorad.jpeg" alt="Description of Image 4">
-    <div class="caption">Caption for Image 4</div>
+  <div class="gallery-item">
+    <img src="path_to_image4.jpg" alt="Description of Image 4">
+    <div>Caption for Image 4</div>
   </div>
 </div>
 
