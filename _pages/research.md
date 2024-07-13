@@ -5,6 +5,26 @@ permalink: /research/
 author_profile: true
 ---
 
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery img {
+    width: 22%; /* Adjust percentage as needed */
+    margin-bottom: 20px;
+    border-radius: 15px; /* Adjust curvature as needed */
+  }
+  .caption {
+    text-align: center;
+    width: 22%; /* Match image width */
+    margin-bottom: 40px;
+  }
+</style>
+
+<img src="../images/Ciber-horizontal.png">
+
 {% include base_path %}
 
 Dr. Neal leads the Cyber Identity and Behavior Research (CIBeR) Lab. Our research is inspired by the pervasive nature of today's technologies and how smart sensing, enabled by these technologies, can be used to understand human interactions with technology, interpersonal interactions, and behaviors in various environments. We primarily use applied artificial intelligence and human-centered computing techniques to explore:
