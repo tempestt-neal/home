@@ -15,20 +15,3 @@ Additionally, the project will develop inclusive cybersecurity education materia
 ### Funding
 
 This project is funded by the U.S. National Science Foundation.<br/><img src='../../images/nsf-logo.png'>
-
-```
-### Publications
-
-- [Placeholder for paper 1](#)
-- [Placeholder for paper 2](#)
-
-### Presentations
-
-- [Placeholder for presentation 1](#)
-- [Placeholder for presentation 2](#)
-
-### Data
-
-- [Placeholder for dataset 1](#)
-- [Placeholder for dataset 2](#)
-```
