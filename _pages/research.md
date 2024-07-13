@@ -27,27 +27,26 @@ author_profile: true
 
 {% include base_path %}
 
-Dr. Neal leads the Cyber Identity and Behavior Research (CIBeR) Lab. Our research is inspired by the pervasive nature of today's technologies and how smart sensing, enabled by these technologies, can be used to understand human interactions with technology, interpersonal interactions, and behaviors in various environments. We primarily use applied artificial intelligence and human-centered computing techniques to explore:
-
+The Cyber Identity and Behavior Research (CIBeR) Lab primarily uses applied artificial intelligence and human-centered computing techniques to explore:
 - Usable and inclusive cybersecurity systems for personally-owned computing devices, with a particular focus on identity and access management
 - Interdisciplinary applications of human behavior analysis through smart sensing
 
 ## The CIBeR Group
 <div class="gallery">
   <div>
-    <img src="../../images/hoorad.jpeg" alt="Description of Image 1">
+    <img src="../images/hoorad.jpeg" alt="Description of Image 1">
     <div class="caption">Caption for Image 1</div>
   </div>
   <div>
-    <img src="path_to_image2.jpg" alt="Description of Image 2">
+    <img src="../images/hoorad.jpeg" alt="Description of Image 2">
     <div class="caption">Caption for Image 2</div>
   </div>
   <div>
-    <img src="path_to_image3.jpg" alt="Description of Image 3">
+    <img src="../images/hoorad.jpeg" alt="Description of Image 3">
     <div class="caption">Caption for Image 3</div>
   </div>
   <div>
-    <img src="path_to_image4.jpg" alt="Description of Image 4">
+    <img src="../images/hoorad.jpeg" alt="Description of Image 4">
     <div class="caption">Caption for Image 4</div>
   </div>
 </div>
@@ -76,8 +75,7 @@ Ph.D students must be able and willing to:
   
 Interested Ph.D. students should submit the following materials via e-mail for consideration.
 - A brief summary of two projects (can be coursework or something you have completed on a job or your own) that you are most proud of, and what your contributions were to the project.
-Your views on the on-going research in the CIBeR lab that appeals to you the most. This requires that you familiarize yourself with our research projects. I'd like your input on our current research strategies, and how you feel you might be able to expand or contribute to these efforts.
-- Brief write-up of how you feel technology and computer science can be used to improve problems facing the world. Please provide specific examples.
+- Your views on the on-going research in the CIBeR lab that appeals to you the most. This requires that you familiarize yourself with our research projects. I'd like your input on our current research strategies, and how you feel you might be able to expand or contribute to these efforts.
 - List of courses taken with final grades.
 - Degree you are currently pursuing and expected start date at USF.
 - Updated CV and publications, presentation slides, etc, if available.
