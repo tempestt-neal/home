@@ -1,3 +1,21 @@
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery img {
+    width: 22%; /* Adjust percentage as needed */
+    margin-bottom: 20px;
+    border-radius: 15px; /* Adjust curvature as needed */
+  }
+  .caption {
+    text-align: center;
+    width: 22%; /* Match image width */
+    margin-bottom: 40px;
+  }
+</style>
+
 ---
 title: "CIBeR Lab"
 excerpt: "The Cyber Identity and Behavior Research (CIBeR) Lab explores inclusivity in cybersecurity systems, biometrics, and behavior recognition in interdisciplinary applications.<br/><img src='../images/Ciber-horizontal.png'>"
@@ -10,18 +28,23 @@ Dr. Neal leads the Cyber Identity and Behavior Research (CIBeR) Lab. Our researc
 - Interdisciplinary applications of human behavior analysis through smart sensing
 
 ## The CIBeR Group
-<div style="display: flex; justify-content: space-between;">
-    <img src="../../images/hoorad.jpeg" alt="Member 1" width="10%" style="margin-right: 20px; border-radius: 50%;"/>
-    <img src="../../images/meghna.jpg" alt="Member 2" width="10%" style="margin-right: 20px; border-radius: 50%;"/>
-    <img src="../../images/sayde.png" alt="Member 3" width="10%" style="margin-right: 20px; border-radius: 50%;"/>
-    <img src="../../images/wilson.jpeg" alt="Member 4" width="10%" style="margin-right: 20px; border-radius: 50%;"/>
-</div>
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="../../parush.jpg" alt="Member 5" width="10%" style="margin-right: 20px; border-radius: 50%;"/>
-    <img src="../../mohamed.jpeg" alt="Member 6" width="10%" style="margin-right: 20px; border-radius: 50%;"/>
-    <img src="../../georgia.jpg" alt="Member 7" width="10%" style="margin-right: 20px; border-radius: 50%;"/>
-    <!--<img src="path_to_image8.jpg" alt="Member 8" width="200"/>-->
+<div class="gallery">
+  <div>
+    <img src="../../images/hoorad.jpeg" alt="Description of Image 1">
+    <div class="caption">Caption for Image 1</div>
+  </div>
+  <div>
+    <img src="path_to_image2.jpg" alt="Description of Image 2">
+    <div class="caption">Caption for Image 2</div>
+  </div>
+  <div>
+    <img src="path_to_image3.jpg" alt="Description of Image 3">
+    <div class="caption">Caption for Image 3</div>
+  </div>
+  <div>
+    <img src="path_to_image4.jpg" alt="Description of Image 4">
+    <div class="caption">Caption for Image 4</div>
+  </div>
 </div>
 
 ## Joining the Lab
