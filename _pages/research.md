@@ -35,11 +35,11 @@ The Cyber Identity and Behavior Research (CIBeR) Lab primarily uses applied arti
 <div class="gallery">
   <div class="gallery-item">
     <img src="../images/hoorad.jpeg" alt="Description of Image 1">
-    <div>Ph.D. Student</div>
+    <div>Hoorad Abootalebi<br>Ph.D. Student</div>
   </div>
   <div class="gallery-item">
-    <img src="path_to_image2.jpg" alt="Description of Image 2">
-    <div>Caption for Image 2</div>
+    <img src="../images/meghna.jpg" alt="Description of Image 2">
+    <div>Meghna Chaudhary<br>Ph.D. Candidate</div>
   </div>
   <div class="gallery-item">
     <img src="path_to_image3.jpg" alt="Description of Image 3">
