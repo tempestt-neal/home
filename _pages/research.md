@@ -42,12 +42,27 @@ The Cyber Identity and Behavior Research (CIBeR) Lab primarily uses applied arti
     <div>Meghna Chaudhary<br>Ph.D. Candidate</div>
   </div>
   <div class="gallery-item">
-    <img src="path_to_image3.jpg" alt="Description of Image 3">
-    <div>Caption for Image 3</div>
+    <img src="../images/wilson.jpeg" alt="Description of Image 3">
+    <div>Wilson Lozano<br>Ph.D. Student</div>
   </div>
   <div class="gallery-item">
-    <img src="path_to_image4.jpg" alt="Description of Image 4">
-    <div>Caption for Image 4</div>
+    <img src="../images/sayde.png" alt="Description of Image 4">
+    <div>Sayde King <br> Ph.D. Candidate</div>
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="../images/mohamed.jpeg" alt="Description of Image 1">
+    <div>Mohamed Ebraheem<br>Ph.D. Student</div>
+  </div>
+  <div class="gallery-item">
+    <img src="../images/parush.jpg" alt="Description of Image 2">
+    <div>Parush Gera<br>Ph.D. Candidate</div>
+  </div>
+  <div class="gallery-item">
+    <img src="../images/georgia.jpg" alt="Description of Image 3">
+    <div>Georgia Ng Wai<br>Undergraduate Student</div>
   </div>
 </div>
 
