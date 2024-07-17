@@ -1,6 +1,6 @@
 ---
 title: "Mobile Biometrics"
-excerpt: "This research explores behavioral biometric modalities in mobile devices, demonstrating the effectiveness of passive continuous authentication through patterns in application use, Bluetooth and Wi-Fi activity, and communication, with significant findings including improved feature representation, gender-based usage patterns, attack simulations, and novel profiling and ranking techniques.<br/><img src='../images/mobilebiometrics.jpg'>"
+excerpt: "This research explores behavioral biometric modalities in mobile devices, demonstrating the effectiveness of passive continuous authentication through patterns in application use, Bluetooth and Wi-Fi activity, and communication, with significant findings including improved feature representation, gender-based usage patterns, attack simulations, and novel profiling and ranking techniques.<br/><img src='../images/mobilebiometrics.gif'>"
 collection: portfolio
 ---
 
