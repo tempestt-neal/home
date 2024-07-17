@@ -13,13 +13,13 @@ author_profile: true
     gap: 20px; /* Adjust the gap between images as needed */
   }
   .gallery-item {
-    flex-basis: calc(25% - 20px); /* Adjust percentage and subtract gap size */
+    flex-basis: calc(25% - 30px); /* Adjust percentage and subtract gap size */
     box-sizing: border-box;
     text-align: center;
   }
   .gallery-item img {
     width: 100%;
-    border-radius: 15px; /* Adjust curvature as needed */
+    border-radius: 25px; /* Adjust curvature as needed */
   }
 </style>
 
