@@ -4,7 +4,7 @@ excerpt: "This project explored continuous user authentication on personal compu
 collection: portfolio
 ---
 
-# Project Summary
+## Project Summary
 Current software for user authentication relies on the user to directly initiate some interaction (i.e., active authentication). However, active authentication systems are not accessible to individuals across all
 age groups. Continuous authentication schemes transparently observe a user's natural multimodal behaviors to leverage all possible signals as input for authentication, and hence do not require explicit
 authentication interactions to be initiated by the user, and are thus a promising framework for authentication by individuals of different age groups. This project's novelties are 1) to advance understanding of
@@ -24,6 +24,6 @@ Computer Interaction Lab (https://ruizlab.org/).
 - S. Aathreya, M. Chaudhary, T. Neal and S. Canavan, "Multimodal Context-Based Continuous Authentication," 2023 IEEE International Joint Conference on Biometrics (IJCB), Ljubljana, Slovenia, 2023, pp. 1-10, doi: 10.1109/IJCB57857.2023.10448626.
 - Neal, Tempestt, Anthony, Lisa, Canavan, Shaun, Ruiz, Jaime, Aathreya, Saandeep, Chaudhary, Meghna, Chen, Yu-Peng, Wang, Heting, Calvo, Rodrigo, Jivnani, Liza, and Ng Wai, Nicolas. Toward Understanding Children’s Use and Understanding of User Authentication Systems: Work-in-Progress. Retrieved from https://par.nsf.gov/biblio/10394636. USENIX Symposium on Usable Privacy and Security (SOUPS).
 
-# This project received Research Experience for Teachers and Undergraduates supplements through the U.S. National Science Foundation to engage with undergraduate students on the development of high school cybersecurity teaching materials. 
+### This project received Research Experience for Teachers and Undergraduates supplements through the U.S. National Science Foundation to engage with undergraduate students on the development of high school cybersecurity teaching materials. Read about it [here](../files/reu_cybersecurity.pdf).
 
 This study was approved by USF's Institutional Review Board as Study #005606, and was funded by NSF's Secure and Trustworthy Cyberspace Program, Grant #2039373.<br/><img src='../../images/nsf-logo.png'>
