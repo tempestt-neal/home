@@ -19,15 +19,17 @@ Develop fundamental knowledge of age-aware continuous authentication through the
 This project was a collaboration between the CIBeR Lab, the [Affective Vision Lab](https://scanavan.github.io/), the [Intelligent Natural Interaction Technology Lab](http://init.cise.ufl.edu/), and the [Ruiz Human-
 Computer Interaction Lab](https://ruizlab.org/).
 
-### Publications
+## Publications
 
 - S. Aathreya, M. Chaudhary, T. Neal and S. Canavan, "Multimodal Context-Based Continuous Authentication," 2023 IEEE International Joint Conference on Biometrics (IJCB), Ljubljana, Slovenia, 2023, pp. 1-10, doi: 10.1109/IJCB57857.2023.10448626.
 - Neal, Tempestt, Anthony, Lisa, Canavan, Shaun, Ruiz, Jaime, Aathreya, Saandeep, Chaudhary, Meghna, Chen, Yu-Peng, Wang, Heting, Calvo, Rodrigo, Jivnani, Liza, and Ng Wai, Nicolas. Toward Understanding Children’s Use and Understanding of User Authentication Systems: Work-in-Progress. Retrieved from https://par.nsf.gov/biblio/10394636. USENIX Symposium on Usable Privacy and Security (SOUPS).
 
-### Dataset
+## Dataset
 
 The [dataset](../../files/multi-id.pdf) developed in this project is available upon request by sending an email to tjneal@usf.edu.
 
-### This project received Research Experience for Teachers and Undergraduates supplements through the U.S. National Science Foundation to engage with undergraduate students on the development of high school cybersecurity teaching materials. Read about it [here](../../files/reu_cybersecurity.pdf).
+## Cybersecurity Education
+
+This project received Research Experience for Teachers and Undergraduates supplements through the U.S. National Science Foundation to engage with undergraduate students on the development of high school cybersecurity teaching materials. Read about it [here](../../files/reu_cybersecurity.pdf).
 
 This study was approved by USF's Institutional Review Board as Study #005606, and was funded by NSF's Secure and Trustworthy Cyberspace Program, Grant #2039373.<br/><img src='../../images/nsf-logo.png'>
