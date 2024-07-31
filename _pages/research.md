@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: "Cyber Identity and Behavior Research Lab"
 permalink: /research/
 author_profile: true
 ---
@@ -13,7 +13,7 @@ author_profile: true
     gap: 20px; /* Adjust the gap between images as needed */
   }
   .gallery-item {
-    flex-basis: calc(20% - 30px); /* Adjust percentage and subtract gap size */
+    flex-basis: calc(15% - 30px); /* Adjust percentage and subtract gap size */
     box-sizing: border-box;
     text-align: center;
   }
@@ -23,7 +23,9 @@ author_profile: true
   }
 </style>
 
-<img src="../images/Ciber-horizontal.png">
+<div style="display: flex; justify-content: center;">
+    <img src="../images/Ciber-horizontal.png" width="70%">
+</div>
 
 {% include base_path %}
 
@@ -49,9 +51,6 @@ The Cyber Identity and Behavior Research (CIBeR) Lab primarily uses applied arti
     <img src="../images/sayde.png" alt="Description of Image 4">
     <div>Sayde King <br> Ph.D. Candidate</div>
   </div>
-</div>
-
-<div class="gallery">
   <div class="gallery-item">
     <img src="../images/mohamed.jpeg" alt="Description of Image 1">
     <div>Mohamed Ebraheem<br>Ph.D. Student</div>
@@ -66,9 +65,7 @@ The Cyber Identity and Behavior Research (CIBeR) Lab primarily uses applied arti
   </div>
 </div>
 
-<hr>
 ## Joining the Lab
-<hr>
 
 ### Open Positions
 Currently, we do not have funding for additional Ph.D. students and can only welcome you if you have a fellowship.
