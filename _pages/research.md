@@ -13,7 +13,7 @@ author_profile: true
     gap: 20px; /* Adjust the gap between images as needed */
   }
   .gallery-item {
-    flex-basis: calc(25% - 30px); /* Adjust percentage and subtract gap size */
+    flex-basis: calc(20% - 30px); /* Adjust percentage and subtract gap size */
     box-sizing: border-box;
     text-align: center;
   }
@@ -66,7 +66,9 @@ The Cyber Identity and Behavior Research (CIBeR) Lab primarily uses applied arti
   </div>
 </div>
 
+<hr>
 ## Joining the Lab
+<hr>
 
 ### Open Positions
 Currently, we do not have funding for additional Ph.D. students and can only welcome you if you have a fellowship.
