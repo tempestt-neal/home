@@ -9,10 +9,8 @@ date: 2024-09-15
 
 # Qualitative Methods for Biometrics Research: Exploring User Behavior and System Design
 
-**Tempestt Neal, Ph.D., Associate Professor**  
-*University of South Florida, 4202 E. Fowler Ave. Tampa, FL 33620*  
-*tjneal@usf.edu*
-
+**Tutorial Presented at the 2024 IEEE International Joint Conference on Biometrics (IJCB 2024)**  
+*September 15, 2024, Buffalo, NY USA*  
 ---
 
 ## Abstract
@@ -31,22 +29,18 @@ The expected target audience includes individuals (i.e., faculty, students, syst
 2. Gathering user perspectives and experiences.
 3. Improving biometric systems based on user feedback and qualitative insights.
 
-We anticipate that the majority of attendees will be academics and students involved in biometric research, with a general interest in qualitative research design, totaling 10-20 people.
-
 ## Prerequisites for the Participants
 No prerequisites are required for attendees. However, a general understanding of biometric technologies and their applications, along with a genuine interest in the intersection of biometrics and user experience, as well as the ethical and social implications of biometric technologies, will help participants engage more deeply with the content.
 
-## List of Topics and Duration
-We anticipate the tutorial will last a total of 2.5 hours. Proposed topics include the following:
+## List of Topics 
+Topics include the following:
 
 1. **What is Qualitative Research?**  
-   **Duration:** 15 mins  
    - Definition and key characteristics of qualitative research
    - Differences between qualitative and quantitative research
    - Applications and relevance in various fields, with a focus on biometrics
 
 2. **Qualitative Research Methods**  
-   **Duration:** 60 mins  
    - **Interviews**
      - Types of interviews (structured, semi-structured)
      - Designing interview questions
@@ -63,7 +57,6 @@ We anticipate the tutorial will last a total of 2.5 hours. Proposed topics inclu
      - Documenting and interpreting field notes
 
 3. **Qualitative Data Analysis Techniques**  
-   **Duration:** 45 mins  
    - **Coding Qualitative Data**
      - Types of coding (open, axial, selective)
      - Developing a coding framework
@@ -73,7 +66,6 @@ We anticipate the tutorial will last a total of 2.5 hours. Proposed topics inclu
      - Reporting and interpreting themes
 
 4. **Applying Qualitative Research in Biometrics**  
-   **Duration:** 30 mins  
    - **Social and Cultural Implications**
      - Investigating cultural attitudes towards biometrics
      - Addressing social implications and concerns
@@ -85,7 +77,6 @@ We anticipate the tutorial will last a total of 2.5 hours. Proposed topics inclu
      - Importance of IRB approval in biometric research
 
 ## Materials and Resources
-The following sources may be used to develop the tutorial and materials for distribution to attendees:
 
 - Mack, N., Woodsong, C., Macqueen, K., Guest, G., Namey, E. _Qualitative research methods: A data collector’s field guide_. **Family Health International** (2005).
 - Krueger, R. Designing and Conducting Focus Group Interviews. [Available online](https://www.eiu.edu/ihec/Krueger-FocusGroupInterviews.pdf).
@@ -93,13 +84,3 @@ The following sources may be used to develop the tutorial and materials for dist
 - Allison Tong, Peter Sainsbury, Jonathan Craig, Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups, _International Journal for Quality in Health Care_, Volume 19, Issue 6, December 2007, Pages 349–357. [https://doi.org/10.1093/intqhc/mzm042](https://doi.org/10.1093/intqhc/mzm042).
 - Eddie T. Accomando. _Qualitative Research Design Handbook. The Big Picture: Working with Qualitative Data_. Qualtrics E-book.
 - DeVaney, S.A. (2016), Yin, R.K. (2016). _Qualitative Research from Start to Finish, Second Edition_. New York: The Guilford Press. ISBN: 978-1-4625-1797-8. 386 pp. _Fam Consum Sci Res J_, 44: 324-325. [https://doi.org/10.1111/fcsr.12144](https://doi.org/10.1111/fcsr.12144).
-
-## Biography
-Dr. Tempestt Neal is an Associate Professor in the Department of Computer Science and Engineering (CSE) at the University of South Florida. She holds a Ph.D. from the University of Florida (Computer Engineering, 2018), M.S. from Clemson University (Computer Science, 2014), and a B.S. from South Carolina State University (Computer Science with a minor in Mathematics, 2012). 
-
-She leads the Cyber Identity and Behavior Research (CIBeR) Lab, which conducts both quantitative and qualitative research on mobile-based sensing for biometrics and human behavior understanding in interdisciplinary applications. In addition, the lab focuses on cybersecurity awareness among populations historically underrepresented in science and engineering. Dr. Neal is also a faculty researcher within CSE’s Natural Language Processing Group, where her research includes the study of linguistic cues as a cognitive biometric trait and implicit opinion mining tasks.
-
-Dr. Neal has held numerous roles in her professional service. She is the Program Chair for the IEEE International Conference on Automatic Face and Gesture Recognition (IEEE FG 2025) and serves on the IEEE Biometrics Council Education Committee. Previously, she was an Associate Editor for the IEEE Biometrics Council Newsletter and a Guest Editor for the MDPI Electronics Special Issue on Recent Advances in Biometric Security in IoT Based on Machine Learning. Dr. Neal has been an active member of organizing committees for several workshops in Artificial Intelligence and Biometrics, including the Workshops on Applied Multimodal Affect Recognition (AMAR 2020, AMAR 2021, AMAR 2022) and the Workshop on Interdisciplinary Applications of Identity Science and Biometrics. She was a recipient of the University of Florida’s Delores Auzenne Dissertation Award and the National Science Foundation’s CyberCorps Scholarship for Service Fellowship. She was also recognized as a 2021-2022 McKnight Junior Faculty Fellow and received an NSF CAREER Award in 2023.
-
-## Previous Similar Tutorials
-Dr. Neal and her research group are increasingly using qualitative research techniques, including interviews and focus groups. This tutorial is designed to reflect their experiences in designing these studies and the results they have achieved. As a result of this research, Dr. Neal has developed a Qualitative Research Training program that many of her students undergo as members of her research lab. This tutorial will be the first opportunity for her to share these experiences and provide fundamental knowledge to others working in similar areas.
