@@ -7,9 +7,6 @@ venue: "IJCB 2024"
 date: 2024-09-15
 ---
 
-Here is the LaTeX document converted into a Markdown webpage format:
-
-```markdown
 # Qualitative Methods for Biometrics Research: Exploring User Behavior and System Design
 
 **Tempestt Neal, Ph.D., Associate Professor**  
@@ -106,6 +103,3 @@ Dr. Neal has held numerous roles in her professional service. She is the Program
 
 ## Previous Similar Tutorials
 Dr. Neal and her research group are increasingly using qualitative research techniques, including interviews and focus groups. This tutorial is designed to reflect their experiences in designing these studies and the results they have achieved. As a result of this research, Dr. Neal has developed a Qualitative Research Training program that many of her students undergo as members of her research lab. This tutorial will be the first opportunity for her to share these experiences and provide fundamental knowledge to others working in similar areas.
-```
-
-This is the markdown version of your LaTeX document, and you can use it as a webpage by embedding it in your desired markdown editor or platform.
