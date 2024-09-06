@@ -76,13 +76,13 @@ Topics include the following:
 
 ## Materials and Resources
 
-- Mack, N., Woodsong, C., Macqueen, K., Guest, G., Namey, E. _Qualitative research methods: A data collector’s field guide_. **Family Health International** (2005).
+- Mack, N., Woodsong, C., Macqueen, K., Guest, G., Namey, E. _Qualitative research methods: A data collector’s field guide_. Family Health International (2005).
 - Krueger, R. Designing and Conducting Focus Group Interviews. [Available online](https://www.eiu.edu/ihec/Krueger-FocusGroupInterviews.pdf).
 - Krueger, R. A., Casey, M. A., Donner, J., Kirsch, S., and Maack, J. N. (2001). Social analysis: selected tools and techniques. _World Dev_, 36, 4-23.
-- Allison Tong, Peter Sainsbury, Jonathan Craig, Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups, _International Journal for Quality in Health Care_, Volume 19, Issue 6, December 2007, Pages 349–357. [https://doi.org/10.1093/intqhc/mzm042](https://doi.org/10.1093/intqhc/mzm042).
+- Allison Tong, Peter Sainsbury, Jonathan Craig, Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups, _International Journal for Quality in Health Care_, Volume 19, Issue 6, December 2007, Pages 349–357. [Available online](https://doi.org/10.1093/intqhc/mzm042).
 - Eddie T. Accomando. _Qualitative Research Design Handbook. The Big Picture: Working with Qualitative Data_. Qualtrics E-book.
-- DeVaney, S.A. (2016), Yin, R.K. (2016). _Qualitative Research from Start to Finish, Second Edition_. New York: The Guilford Press. ISBN: 978-1-4625-1797-8. 386 pp. _Fam Consum Sci Res J_, 44: 324-325. [https://doi.org/10.1111/fcsr.12144](https://doi.org/10.1111/fcsr.12144).
+- DeVaney, S.A. (2016), Yin, R.K. (2016). _Qualitative Research from Start to Finish, Second Edition_. New York: The Guilford Press. ISBN: 978-1-4625-1797-8. 386 pp. _Fam Consum Sci Res J_, 44: 324-325. [Available online](https://doi.org/10.1111/fcsr.12144).
 - Wong L. Data analysis in qualitative research: a brief guide to using nvivo. Malays Fam Physician. 2008 Apr 30;3(1):14-20. PMID: 25606106; PMCID: PMC4267019.
-- Leslie Curry, Fundamentals of Qualitative Research Methods, https://www.youtube.com/watch?v=wbdN_sLWl88&list=PLqHnHG5X2PXCsCMyN3_EzugAF7GKN2poQ
-- Thematic analysis in qualitative research. Qualtrics. https://www.qualtrics.com/experience-management/research/thematic-analysis-in-qualitative-research/
+- Leslie Curry, Fundamentals of Qualitative Research Methods, [Available online](https://www.youtube.com/watch?v=wbdN_sLWl88&list=PLqHnHG5X2PXCsCMyN3_EzugAF7GKN2poQ)
+- Thematic analysis in qualitative research. Qualtrics. [Available online](https://www.qualtrics.com/experience-management/research/thematic-analysis-in-qualitative-research/)
 - Kiger ME, Varpio L. Thematic analysis of qualitative data: AMEE Guide No. 131. Med Teach. 2020 Aug;42(8):846-854. doi: 10.1080/0142159X.2020.1755030. Epub 2020 May 1. PMID: 32356468.
