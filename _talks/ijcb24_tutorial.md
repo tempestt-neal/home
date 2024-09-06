@@ -22,7 +22,7 @@ This tutorial aims to provide biometrics researchers with a foundational underst
 
 The tutorial will address qualitative research design, including formulating research questions and hypotheses, selecting appropriate qualitative methods, sampling strategies for participant recruitment, and data collection techniques such as conducting and recording interviews, managing focus groups, and employing observational methods. Additionally, we will cover data analysis methods, including coding qualitative data, thematic analysis for identifying patterns and themes, and grounded theory for theory development. Ethical considerations in qualitative research, particularly regarding informed consent, confidentiality, and privacy in the context of biometric data, will also be discussed. We will explore how qualitative methods can enhance the understanding of user experiences related to biometric research, examine the social and cultural implications of biometric technologies, and investigate usability and acceptance across various contexts.
 
-## Expected Target Audience
+## Targeted Audience
 The expected target audience includes individuals (i.e., faculty, students, system and UX designers, industry professionals, etc.) engaged in biometric research or related fields who are interested in:
 
 1. Understanding the application of qualitative research techniques within biometric studies.
@@ -84,3 +84,4 @@ Topics include the following:
 - Allison Tong, Peter Sainsbury, Jonathan Craig, Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups, _International Journal for Quality in Health Care_, Volume 19, Issue 6, December 2007, Pages 349–357. [https://doi.org/10.1093/intqhc/mzm042](https://doi.org/10.1093/intqhc/mzm042).
 - Eddie T. Accomando. _Qualitative Research Design Handbook. The Big Picture: Working with Qualitative Data_. Qualtrics E-book.
 - DeVaney, S.A. (2016), Yin, R.K. (2016). _Qualitative Research from Start to Finish, Second Edition_. New York: The Guilford Press. ISBN: 978-1-4625-1797-8. 386 pp. _Fam Consum Sci Res J_, 44: 324-325. [https://doi.org/10.1111/fcsr.12144](https://doi.org/10.1111/fcsr.12144).
+- Wong L. Data analysis in qualitative research: a brief guide to using nvivo. Malays Fam Physician. 2008 Apr 30;3(1):14-20. PMID: 25606106; PMCID: PMC4267019.
