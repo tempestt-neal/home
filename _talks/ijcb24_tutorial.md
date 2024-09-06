@@ -1,13 +1,11 @@
 ---
-title: "Qualitative Methods for Biometrics Research"
+title: "Qualitative Methods for Biometrics Research: Exploring User Behavior and System Design"
 collection: talks
 type: "Talk"
 permalink: /talks/ijcb24_tutorial
 venue: "IJCB 2024"
 date: 2024-09-15
 ---
-
-# Qualitative Methods for Biometrics Research: Exploring User Behavior and System Design
 
 **Tutorial Presented at the 2024 IEEE International Joint Conference on Biometrics (IJCB 2024)**  
 *September 15, 2024, Buffalo, NY USA*  
