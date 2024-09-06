@@ -87,3 +87,4 @@ Topics include the following:
 - Wong L. Data analysis in qualitative research: a brief guide to using nvivo. Malays Fam Physician. 2008 Apr 30;3(1):14-20. PMID: 25606106; PMCID: PMC4267019.
 - Leslie Curry, Fundamentals of Qualitative Research Methods, https://www.youtube.com/watch?v=wbdN_sLWl88&list=PLqHnHG5X2PXCsCMyN3_EzugAF7GKN2poQ
 - Thematic analysis in qualitative research. Qualtrics. https://www.qualtrics.com/experience-management/research/thematic-analysis-in-qualitative-research/
+- Kiger ME, Varpio L. Thematic analysis of qualitative data: AMEE Guide No. 131. Med Teach. 2020 Aug;42(8):846-854. doi: 10.1080/0142159X.2020.1755030. Epub 2020 May 1. PMID: 32356468.
