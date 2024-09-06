@@ -85,3 +85,4 @@ Topics include the following:
 - Eddie T. Accomando. _Qualitative Research Design Handbook. The Big Picture: Working with Qualitative Data_. Qualtrics E-book.
 - DeVaney, S.A. (2016), Yin, R.K. (2016). _Qualitative Research from Start to Finish, Second Edition_. New York: The Guilford Press. ISBN: 978-1-4625-1797-8. 386 pp. _Fam Consum Sci Res J_, 44: 324-325. [https://doi.org/10.1111/fcsr.12144](https://doi.org/10.1111/fcsr.12144).
 - Wong L. Data analysis in qualitative research: a brief guide to using nvivo. Malays Fam Physician. 2008 Apr 30;3(1):14-20. PMID: 25606106; PMCID: PMC4267019.
+- Leslie Curry, Fundamentals of Qualitative Research Methods, https://www.youtube.com/watch?v=wbdN_sLWl88&list=PLqHnHG5X2PXCsCMyN3_EzugAF7GKN2poQ
