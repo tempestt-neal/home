@@ -87,4 +87,4 @@ Topics include the following:
 - Thematic analysis in qualitative research. Qualtrics. [Available online](https://www.qualtrics.com/experience-management/research/thematic-analysis-in-qualitative-research/)
 - Kiger ME, Varpio L. Thematic analysis of qualitative data: AMEE Guide No. 131. Med Teach. 2020 Aug;42(8):846-854. doi: 10.1080/0142159X.2020.1755030. Epub 2020 May 1. PMID: 32356468.
 - DiCicco‐Bloom, Barbara, and Benjamin F. Crabtree. "The qualitative research interview." Medical education 40.4 (2006): 314-321.
-
+- Palinkas LA, Horwitz SM, Green CA, Wisdom JP, Duan N, Hoagwood K. Purposeful Sampling for Qualitative Data Collection and Analysis in Mixed Method Implementation Research. Adm Policy Ment Health. 2015 Sep;42(5):533-44. doi: 10.1007/s10488-013-0528-y. PMID: 24193818; PMCID: PMC4012002.
