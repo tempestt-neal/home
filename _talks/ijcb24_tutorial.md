@@ -86,3 +86,5 @@ Topics include the following:
 - Leslie Curry, Fundamentals of Qualitative Research Methods, [Available online](https://www.youtube.com/watch?v=wbdN_sLWl88&list=PLqHnHG5X2PXCsCMyN3_EzugAF7GKN2poQ)
 - Thematic analysis in qualitative research. Qualtrics. [Available online](https://www.qualtrics.com/experience-management/research/thematic-analysis-in-qualitative-research/)
 - Kiger ME, Varpio L. Thematic analysis of qualitative data: AMEE Guide No. 131. Med Teach. 2020 Aug;42(8):846-854. doi: 10.1080/0142159X.2020.1755030. Epub 2020 May 1. PMID: 32356468.
+- DiCicco‐Bloom, Barbara, and Benjamin F. Crabtree. "The qualitative research interview." Medical education 40.4 (2006): 314-321.
+
