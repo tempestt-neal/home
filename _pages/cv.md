@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download my full CV]()
+[Download my full CV](https://tempestt-neal.github.io/home/files/Neal_CV.pdf)
 
 Education
 ======
