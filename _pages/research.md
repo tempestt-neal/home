@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: ""
 permalink: /research/
 author_profile: true
 ---
@@ -62,13 +62,12 @@ The **C**yber **I**dentity and **Be**havior **R**esearch (CIBeR) Lab is part of 
 </div>
 
 
-## **Joining the Lab**
+# **Joining the Lab**
 ---
 
-### **Open Positions**
-Currently, we do not have funding for additional Ph.D. students and can only welcome you if you have a fellowship.
+_Currently, we do not have funding and can only welcome you if you have a fellowship._
 
-### **Interested Ph.D. Students**
+## **Interested Ph.D. Students**
 Ph.D. students with experience in one or more of the following research areas are encouraged to send their application materials (listed below) to Dr. Neal via e-mail.
 
 - Machine and deep learning / pattern recognition systems
@@ -93,10 +92,10 @@ Interested Ph.D. students should submit the following materials via e-mail for c
 - Updated CV and publications, presentation slides, etc, if available.
 - Link to personal website.
 
-### **Interested Masters Students**
+## **Interested Masters Students**
 M.S. students seeking a thesis advisor are encouraged to reach out to Dr. Neal no later than the middle of their first semester in the M.S. program.
   
-### **Interested Undergraduate Students**
+## **Interested Undergraduate Students**
 If you are an undergraduate student interested in gaining hands-on research experience, you should **strongly** consider enrolling in one of the following courses to facilitate your involvement in our lab:
 
 **For Computer Science and Computer Engineering Majors:**
