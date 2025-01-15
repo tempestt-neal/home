@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Tempestt J. Neal"
+title                    : "Tempestt Neal, Ph.D."
 title_separator          : " - "
-name                     : &name "Tempestt J. Neal"
+name                     : &name "Tempestt Neal, Ph.D."
 description              : &description "personal description"
 url                      : "https://tempestt-neal.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/home" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "tempestt-neal/home"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Tempestt J. Neal"
+  name             : "Tempestt Neal, Ph.D."
   pronouns         : # "she/her"  
   bio              : "Associate Professor of Computer Science and Engineering at the University of South Florida. Cybersecurity, biometrics, and applied mobile-based sensing researcher."
   location         : "Tampa, FL"
