@@ -29,22 +29,4 @@ Work experience
 
 * 2013 - 2018: Research Assistant
   * Clemson University (Human-Centered Computing), University of Florida (Computer Engineering)
-  * Supervisor: Professor Damon Woodard
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  * Supervisor: Dr. Damon Woodard
