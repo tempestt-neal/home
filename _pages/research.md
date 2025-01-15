@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Cyber Identity and Behavior Research Lab"
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
