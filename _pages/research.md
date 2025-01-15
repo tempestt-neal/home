@@ -19,58 +19,54 @@ author_profile: true
   }
   .gallery-item img {
     width: 100%;
-    border-radius: 25px; /* Adjust curvature as needed */
+    border-radius: 50%; /* Adjust curvature as needed */
+    padding: 10px;
   }
 </style>
 
 <div style="display: flex; justify-content: center;">
-    <img src="../images/Ciber-horizontal.png" width="70%">
+    <img src="../images/Ciber-horizontal.png" width="90%">
 </div>
 
 {% include base_path %}
 
-The Cyber Identity and Behavior Research (CIBeR) Lab primarily uses applied artificial intelligence and human-centered computing techniques to explore:
-- Usable and inclusive cybersecurity systems for personally-owned computing devices, with a particular focus on identity and access management
-- Interdisciplinary applications of human behavior analysis through smart sensing
+The **C**yber **I**dentity and **Be**havior **R**esearch (CIBeR) Lab is part of the [Department of Computer Science and Engineering](https://www.usf.edu/engineering/cse/) at the [University of South Florida](https://www.usf.edu/). The lab conducts research on applying AI, mobile device sensing, and human-centered computing to enhance the usability of cybersecurity systems and study human behavior in interdisciplinary contexts, including mental health.
 
-## The CIBeR Group
+---
+## Current Students
+---
+
 <div class="gallery">
   <div class="gallery-item">
-    <img src="../images/hoorad.jpeg" alt="Description of Image 1">
+    <img src="../images/hoorad.jpeg">
     <div>Hoorad Abootalebi<br>Ph.D. Student</div>
   </div>
   <div class="gallery-item">
-    <img src="../images/meghna.jpg" alt="Description of Image 2">
+    <img src="../images/meghna.jpg">
     <div>Meghna Chaudhary<br>Ph.D. Candidate</div>
   </div>
   <div class="gallery-item">
-    <img src="../images/wilson.jpeg" alt="Description of Image 3">
+    <img src="../images/wilson.jpeg">
     <div>Wilson Lozano<br>Ph.D. Student</div>
   </div>
   <div class="gallery-item">
-    <img src="../images/sayde.png" alt="Description of Image 4">
+    <img src="../images/sayde.png">
     <div>Sayde King <br> Ph.D. Candidate</div>
   </div>
   <div class="gallery-item">
-    <img src="../images/mohamed.jpeg" alt="Description of Image 1">
-    <div>Mohamed Ebraheem<br>Ph.D. Student</div>
-  </div>
-  <div class="gallery-item">
-    <img src="../images/parush.jpg" alt="Description of Image 2">
+    <img src="../images/parush.jpg">
     <div>Parush Gera<br>Ph.D. Candidate</div>
-  </div>
-  <div class="gallery-item">
-    <img src="../images/georgia.jpg" alt="Description of Image 3">
-    <div>Georgia Ng Wai<br>Undergraduate Student</div>
   </div>
 </div>
 
+---
 ## Joining the Lab
+---
 
-### Open Positions
+### **Open Positions**
 Currently, we do not have funding for additional Ph.D. students and can only welcome you if you have a fellowship.
 
-### Interested Ph.D. Students
+### **Interested Ph.D. Students**
 Ph.D. students with experience in one or more of the following research areas are encouraged to send their application materials (listed below) to Dr. Neal via e-mail.
 
 - Machine and deep learning / pattern recognition systems
@@ -95,11 +91,29 @@ Interested Ph.D. students should submit the following materials via e-mail for c
 - Updated CV and publications, presentation slides, etc, if available.
 - Link to personal website.
 
-### Interested Masters Students
+### **Interested Masters Students**
 M.S. students seeking a thesis advisor are encouraged to reach out to Dr. Neal no later than the middle of their first semester in the M.S. program.
   
-### Interested Undergraduate Students
-We are always looking for enthusiastic undergraduate students interested in gaining hands-on experience in research. Ideal students will have some experience in our research areas and will be able to clearly articulate how they want to contribute to the lab. Ideal students will also be able to dedicate 3-5 hours to working with our research team per week, and will meet regularly during lab meetings. All undergraduate students are brought into the lab as volunteers, and are encouraged to take full advantage of the wide spectrum of learning opportunities. Importantly, all undergraduates working with the lab should strongly considering registering for Supervised Research (CIS 4915) credits.
+### **Interested Undergraduate Students**
+If you are an undergraduate student interested in gaining hands-on research experience, you should **strongly** consider enrolling in one of the following courses to facilitate your involvement in our lab:
+
+**For Computer Science and Computer Engineering Majors:**
+_[Contract Form for Independent Study (CIS 4900):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
+This course allows students to work on a project in an area not typically covered by department courses. Independent Study can be used for elective credit but cannot substitute for required classes. To register, you must complete a contract with a supervising professor and have it approved by the Undergraduate Director or designee.
+
+_[Contract Form for Supervised Research (CIS 4915):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
+This course provides an opportunity for supervised research experience for elective credit. You’ll need to establish a contract with your supervising professor and obtain approval from the Undergraduate Director or designee to register.
+
+**For Information Technology and Cybersecurity Majors:**
+_[Contract Form for Independent Study (COP 4900):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
+Similar to CIS 4900, this course is for projects outside of typical classroom courses and can count as an elective credit. A contract signed by the supervising professor and approved by the Undergraduate Director or designee is required.
+
+#### Important Considerations:
+- _Plan Ahead:_ You must align with the university's course registration timeline. Schedule a meeting with me the semester before you wish to join the lab to discuss your interests and determine if enrolling in one of these courses is right for you. Requests made during the semester you wish to engage in the lab are harder to honor due to lab activity and potential disruptions.
+
+- _Review Our Projects:_ Before reaching out, carefully review our ongoing projects to ensure they align with your interests. If they do not, I encourage you to seek opportunities better suited to your goals.
+
+- _Funding:_ Please note that I typically do not offer funded assistantships to undergraduate students. However, participation in our lab has paved the way for long-term research assistantship opportunities for those who choose to pursue graduate studies with us.
 
 {% for post in site.research %}
   {% include archive-single.html %}
