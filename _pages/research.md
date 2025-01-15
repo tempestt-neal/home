@@ -12,8 +12,6 @@ author_profile: true
     justify-content: space-between;
   }
   .gallery-item {
-    flex-basis: calc(15% - 30px); /* Adjust percentage and subtract gap size */
-    box-sizing: border-box;
     text-align: center;
   }
   .gallery-item img {
