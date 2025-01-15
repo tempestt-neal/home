@@ -11,8 +11,6 @@ author_profile: true
 
 2. Neal, T.J., Woodard, D.L., Striegel, A.D. (2017). “Mobile device usage data as behavioral biometrics.” In *Mobile Biometrics*. IET Digital Library. [https://doi.org/10.1049/PBSE003E_ch7](https://doi.org/10.1049/PBSE003E_ch7)
 
-Here’s the list formatted for Markdown:
-
 ### Refereed Journal Articles
 
 1. S. L. King and T. Neal, "Applications of AI-Enabled Deception Detection Using Video, Audio, and Physiological Data: A Systematic Review," in *IEEE Access*, vol. 12, pp. 135207-135240, 2024, doi: [10.1109/ACCESS.2024.3462825](https://doi.org/10.1109/ACCESS.2024.3462825).
