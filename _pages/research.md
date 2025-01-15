@@ -29,8 +29,11 @@ author_profile: true
 {% include base_path %}
 
 The **C**yber **I**dentity and **Be**havior **R**esearch (CIBeR) Lab is part of the [Department of Computer Science and Engineering](https://www.usf.edu/engineering/cse/) at the [University of South Florida](https://www.usf.edu/). The lab conducts research on applying AI, mobile device sensing, and human-centered computing to enhance the usability of cybersecurity systems and study human behavior in interdisciplinary contexts, such as mental health. Our research projects include:
+
 > [Inclusive Cybersecurity Through the Lens of Accessible Identity and Access Management (I-CLAIM)](https://tempestt-neal.github.io/home/research/iclaim/)
+
 > [Continuous User Authentication on Everyday Devices](https://tempestt-neal.github.io/home/research/continuousauthentication/)
+
 > [Mobile Biometrics](https://tempestt-neal.github.io/home/research/mobilebiometrics/)
 
 ## **Current Students**
