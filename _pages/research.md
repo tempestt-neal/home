@@ -10,7 +10,6 @@ author_profile: true
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px; /* Adjust the gap between images as needed */
   }
   .gallery-item {
     flex-basis: calc(15% - 30px); /* Adjust percentage and subtract gap size */
@@ -18,7 +17,8 @@ author_profile: true
     text-align: center;
   }
   .gallery-item img {
-    width: 100%;
+    width: 100px;
+    height: 100px;
     border-radius: 50%; /* Adjust curvature as needed */
     padding: 10px;
   }
