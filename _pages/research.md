@@ -17,8 +17,8 @@ author_profile: true
     text-align: center;
   }
   .gallery-item img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%; /* Adjust curvature as needed */
     padding: 10px;
   }
@@ -30,10 +30,12 @@ author_profile: true
 
 {% include base_path %}
 
-The **C**yber **I**dentity and **Be**havior **R**esearch (CIBeR) Lab is part of the [Department of Computer Science and Engineering](https://www.usf.edu/engineering/cse/) at the [University of South Florida](https://www.usf.edu/). The lab conducts research on applying AI, mobile device sensing, and human-centered computing to enhance the usability of cybersecurity systems and study human behavior in interdisciplinary contexts, including mental health.
+The **C**yber **I**dentity and **Be**havior **R**esearch (CIBeR) Lab is part of the [Department of Computer Science and Engineering](https://www.usf.edu/engineering/cse/) at the [University of South Florida](https://www.usf.edu/). The lab conducts research on applying AI, mobile device sensing, and human-centered computing to enhance the usability of cybersecurity systems and study human behavior in interdisciplinary contexts, such as mental health. Our research projects include:
+> [Inclusive Cybersecurity Through the Lens of Accessible Identity and Access Management (I-CLAIM)](https://tempestt-neal.github.io/home/research/iclaim/)
+> [Continuous User Authentication on Everyday Devices](https://tempestt-neal.github.io/home/research/continuousauthentication/)
+> [Mobile Biometrics](https://tempestt-neal.github.io/home/research/mobilebiometrics/)
 
----
-## Current Students
+## **Current Students**
 ---
 
 <div class="gallery">
@@ -59,8 +61,8 @@ The **C**yber **I**dentity and **Be**havior **R**esearch (CIBeR) Lab is part of 
   </div>
 </div>
 
----
-## Joining the Lab
+
+## **Joining the Lab**
 ---
 
 ### **Open Positions**
@@ -98,23 +100,22 @@ M.S. students seeking a thesis advisor are encouraged to reach out to Dr. Neal n
 If you are an undergraduate student interested in gaining hands-on research experience, you should **strongly** consider enrolling in one of the following courses to facilitate your involvement in our lab:
 
 **For Computer Science and Computer Engineering Majors:**
-_[Contract Form for Independent Study (CIS 4900):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
+
+- _[Contract Form for Independent Study (CIS 4900):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
 This course allows students to work on a project in an area not typically covered by department courses. Independent Study can be used for elective credit but cannot substitute for required classes. To register, you must complete a contract with a supervising professor and have it approved by the Undergraduate Director or designee.
 
-_[Contract Form for Supervised Research (CIS 4915):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
+- _[Contract Form for Supervised Research (CIS 4915):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
 This course provides an opportunity for supervised research experience for elective credit. You’ll need to establish a contract with your supervising professor and obtain approval from the Undergraduate Director or designee to register.
 
 **For Information Technology and Cybersecurity Majors:**
-_[Contract Form for Independent Study (COP 4900):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
+
+- _[Contract Form for Independent Study (COP 4900):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
 Similar to CIS 4900, this course is for projects outside of typical classroom courses and can count as an elective credit. A contract signed by the supervising professor and approved by the Undergraduate Director or designee is required.
 
-#### Important Considerations:
+### Important Considerations:
+
 - _Plan Ahead:_ You must align with the university's course registration timeline. Schedule a meeting with me the semester before you wish to join the lab to discuss your interests and determine if enrolling in one of these courses is right for you. Requests made during the semester you wish to engage in the lab are harder to honor due to lab activity and potential disruptions.
 
 - _Review Our Projects:_ Before reaching out, carefully review our ongoing projects to ensure they align with your interests. If they do not, I encourage you to seek opportunities better suited to your goals.
 
 - _Funding:_ Please note that I typically do not offer funded assistantships to undergraduate students. However, participation in our lab has paved the way for long-term research assistantship opportunities for those who choose to pursue graduate studies with us.
-
-{% for post in site.research %}
-  {% include archive-single.html %}
-{% endfor %}
