@@ -1,0 +1,1550 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conference Program</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .tabs {
+            overflow: hidden;
+            background: #333;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .tabs button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            color: white;
+            font-size: 17px;
+        }
+        .tabs button:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .tabs button.active {
+            background-color: #04AA6D;
+        }
+        .tabcontent {
+            display: none;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .tabcontent.active {
+            display: block;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #04AA6D;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="tabs">
+    <button class="tablinks active" onclick="openDay(event, 'Monday')">Monday</button>
+    <button class="tablinks" onclick="openDay(event, 'Tuesday')">Tuesday</button>
+    <button class="tablinks" onclick="openDay(event, 'Wednesday')">Wednesday</button>
+    <button class="tablinks" onclick="openDay(event, 'Thursday')">Thursday</button>
+    <button class="tablinks" onclick="openDay(event, 'Friday')">Friday</button>
+</div>
+
+
+<div id="Monday" class="tabcontent active">
+    <h1>Monday, May 26th</h1>
+    <table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<th style="text-align: center;"><b>Time</b></th>
+<th style="text-align: center;"><b>Bay Room</b></th>
+<th style="text-align: center;"><b>Island Room I</b></th>
+<th style="text-align: center;"><b>Island Room II</b></th>
+</tr>
+</thead>
+<tbody>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:00 AM - 9:00 AM (Mainstay Tavern)</td>
+<td colspan="3" style="text-align: center;"><b>Continental Breakfast</b> </td>
+
+</tr>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:00 AM - 12:30 PM</td>
+    <td style="text-align: center;"><b>Third Workshop on Learning with Few or Without Annotated Face, Body and Gesture Data</b> </td>
+<td style="text-align: center;"><b>Doctoral Consortium (DC)</b> <br>
+(9:00 AM - 12:00 PM)</td>
+<td style="text-align: center;"><b>AI Innovation Competition</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">12:30 PM - 1:30 PM</td>
+    <td style="text-align: center;"></td>
+<td style="text-align: center;"> <b>Doctoral Consortium Lunch with Mentors</b> (invitation only) <br> (12:00 PM - 1:30 PM)</td>
+<td style="text-align: center;">Break</td>
+</tr>
+    <tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<td style="text-align: center;">12:00 PM - 1:00 PM (Rusty's Dining Room)</td>
+<td colspan="3" style="text-align: center;"><b>Lunch</b> </td>
+
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">1:30 PM - 6:00 PM</td>
+    <td style="text-align: center;"></td>
+<td style="text-align: center;"><b>Second International Workshop on Synthetic Data for Face and Gesture Analysis (SD-FGA)</b></td>
+<td style="text-align: center;"><b>AI Innovation Competition</b> (Continued)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div id="Tuesday" class="tabcontent">
+    <h1>Tuesday, May 27th (Island Ballroom)</h1>
+    <table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Time (EST)</th>
+<th style="text-align: center;">Activity</th>
+<th style="text-align: center;">Session Chair</th>
+<th style="text-align: center;">Paper #</th>
+<th style="text-align: center;">Paper Title</th>
+<th style="text-align: center;">Authors</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">7:00 AM - 8:30 AM</td>
+<td colspan="5" style="text-align: center;"><b>Registration</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:00 AM - 9:00 AM</td>
+<td colspan="5" style="text-align: center;"><b>Continental Breakfast </b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:45 AM - 9:00 AM</td>
+<td colspan="5" style="text-align: center;"><b>Opening Session</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">9:00 AM - 10:00 AM</td>
+<td style="text-align: center;"><b><h3>Keynote Speaker I</h3>Dr. Kevin Bowyer<br></b>Schubmehl-Prein Family Professor, Computer Science and Engineering<br>University of Notre Dame</td>
+<td style="text-align: center;">Tempestt Neal, Ph.D. <br> Associate Professor, Bellini College of AI, Cybersecurity and Computing <br> University of South Florida</td>
+<td colspan="3"></td>  
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">10:00 AM - 10:30 AM</td>
+<td colspan="5" style="text-align: center;"><b>Coffee Break</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">10:30 AM - 11:30 AM</td>
+<td style="text-align: center;"><b>Oral Session I</b><br>Biometrics</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">59</td>
+<td style="text-align: center;">Deep CNN Face Matchers Inherently Support Revocable Biometric Templates</td>
+<td style="text-align: center;">Bhatta, Aman; Bowyer, Kevin; King, Michael</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">84</td>
+<td style="text-align: center;">Impact of Sunglasses on One-to-Many Facial Identification Accuracy</td>
+<td style="text-align: center;">Tian, Sicong; Wu, Haiyu; King, Michael; Bowyer, Kevin</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">192</td>
+<td style="text-align: center;">Multi-Domain Biometric Recognition using Body Embeddings</td>
+<td style="text-align: center;">Nanduri, Anirudh; Huang, Siyuan; Chellappa, Rama</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">209</td>
+<td style="text-align: center;">Axial Sphere Loss: Encouraging open-space risk minimization in face identification tasks</td>
+<td style="text-align: center;">Vareto, Rafael; Schwartz, William</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">11:30 AM - 12:30 PM</td>
+<td style="text-align: center;"><b>Poster Spotlights</b> <br>Spotlight Talks for Poster Session I</td>
+<td style="text-align: center;">Guido Borghi, Ph.D.<br>Associate Professor at the University of Modena and Reggio Emilia</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">1:00 PM - 2:00 PM</td>
+<td colspan="5" style="text-align: center;"><b>Lunch (Rusty's Dining Room)</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">2:00 PM - 3:00 PM</td>
+<td style="text-align: center;"><b>Oral Session II</b><br>Pose and Gesture</td>
+<td style="text-align: center;">Diego L. Guarin, Ph.D <br>   Assistant Professor, Department of Applied Physiology and Kinesiology<br>   University of Florida</td>
+<td style="text-align: center;">39</td>
+    <td style="text-align: center;">Flexible Geometric Guidance for Probabilistic Human Pose Estimation with Diffusion Models</td>
+<td style="text-align: center;">Snelgar, Francis; Xu, Ming; Gould, Stephen; Zheng, Liang; Asthana, Akshay</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">8</td>
+    <td style="text-align: center;">Exploiting Aggregation and Segregation of Representations for Domain Adaptive Human Pose Estimation</td>
+<td style="text-align: center;">Peng, Qucheng; Zheng, Ce; Ding, Zhengming; Wang, Pu; Chen, Chen</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;">CauSkelNet: Causal Representation Learning for Human Behaviour Analysis</td>
+<td style="text-align: center;">Gu, Xingrui; Jiang, Chuyi; Wang, Erte; wu, zekun; Cui, Qiang; Tian, Leimin; Wu, Lianlong; Song, Siyang; Yu, Chuang</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">Measuring Anxiety Levels with Head Motion Patterns in Severe Depression Population</td>
+<td style="text-align: center;">Boutaleb, Fouad ; Pierson, Emery; Doudeau, Nicolas; Nineuil, Clémence; Amad, Ali; Daoudi, Mohamed</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">3:00 PM - 3:15 PM</td>
+<td colspan="5" style="text-align: center;"><b>Coffee Break</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">3:15 PM - 4:15 PM</td>
+<td style="text-align: center;"><b>Oral Session III</b><br>Movement and Action</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">FreqMixFormerV2: Lightweight Frequency-aware Mixed Transformer for Human Skeleton Action Recognition</td>
+<td style="text-align: center;">Wu, Wenhan; Wang, Pengfei; Chen, Chen; Lu, Aidong</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">46</td>
+<td style="text-align: center;">Context-Dependent Anomaly Action Recognition</td>
+<td style="text-align: center;">Banditakkarakul, Nutthadech; Xu, Ming; Chen, Bo; Asthana, Akshay; Zheng, Liang; Gould, Stephen</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">63</td>
+<td style="text-align: center;">Evaluating Data Quality and Preprocessing Methods to Enhance Skeleton-Based Action Recognition in Retail Environments</td>
+<td style="text-align: center;">Yousef, Samer; Han, Chengjun; Chiba, Naoya; Hashimoto, Koichi</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">188</td>
+<td style="text-align: center;">Hands-On: Segmenting Individual Signs from Continuous Sequences</td>
+<td style="text-align: center;">Low, Jian He; Walsh, Harry; Mercanoglu Sincan, Ozge; Bowden, Richard</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">4:15 PM - 5:30 PM</td>
+    <td style="text-align: center;"><b>Poster Session I </b><br> </td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">FreqMixFormerV2: Lightweight Frequency-aware Mixed Transformer for Human Skeleton Action Recognition</td>
+<td style="text-align: center;">Wu, Wenhan; Wang, Pengfei; Chen, Chen; Lu, Aidong</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Exploiting Aggregation and Segregation of Representations for Domain Adaptive Human Pose Estimation</td>
+<td style="text-align: center;">Peng, Qucheng; Zheng, Ce; Ding, Zhengming; Wang, Pu; Chen, Chen</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">59</td>
+<td style="text-align: center;">Deep CNN Face Matchers Inherently Support Revocable Biometric Templates</td>
+<td style="text-align: center;">Bhatta, Aman; Bowyer, Kevin; King, Michael</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">Measuring Anxiety Levels with Head Motion Patterns in Severe Depression Population</td>
+<td style="text-align: center;">Boutaleb, Fouad ; Pierson, Emery; Doudeau, Nicolas; Nineuil, Clémence; Amad, Ali; Daoudi, Mohamed</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">84</td>
+<td style="text-align: center;">Impact of Sunglasses on One-to-Many Facial Identification Accuracy</td>
+<td style="text-align: center;">Tian, Sicong; Wu, Haiyu; King, Michael; Bowyer, Kevin</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;">CauSkelNet: Causal Representation Learning for Human Behaviour Analysis</td>
+<td style="text-align: center;">Gu, Xingrui; Jiang, Chuyi; Wang, Erte; wu, zekun; Cui, Qiang; Tian, Leimin; Wu, Lianlong; Song, Siyang; Yu, Chuang</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">39</td>
+<td style="text-align: center;">Flexible Geometric Guidance for Probabilistic Human Pose Estimation with Diffusion Models</td>
+<td style="text-align: center;">Snelgar, Francis; Xu, Ming; Gould, Stephen; Zheng, Liang; Asthana, Akshay</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">46</td>
+<td style="text-align: center;">Context-Dependent Anomaly Action Recognition</td>
+<td style="text-align: center;">Banditakkarakul, Nutthadech; Xu, Ming; Chen, Bo; Asthana, Akshay; Zheng, Liang; Gould, Stephen</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">63</td>
+<td style="text-align: center;">Evaluating Data Quality and Preprocessing Methods to Enhance Skeleton-Based Action Recognition in Retail Environments</td>
+<td style="text-align: center;">Yousef, Samer; Han, Chengjun; Chiba, Naoya; Hashimoto, Koichi</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">67</td>
+<td style="text-align: center;">CDCGM: Composition-specified Dance Choreography Generation from Music</td>
+<td style="text-align: center;">Ishii, Ryo; Eitoku, Shinichiro; Morency, Louis-Philippe</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">209</td>
+<td style="text-align: center;">Axial Sphere Loss: Encouraging open-space risk minimization in face identification tasks</td>
+<td style="text-align: center;">Vareto, Rafael; Schwartz, William</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">192</td>
+<td style="text-align: center;">Multi-Domain Biometric Recognition using Body Embeddings</td>
+<td style="text-align: center;">Nanduri, Anirudh; Huang, Siyuan; Chellappa, Rama</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">97</td>
+<td style="text-align: center;">AeroGen: Ground-to-Air Generalization for Gesture Recognition</td>
+<td style="text-align: center;">Shah, Ketul ; Shah, Anshul; Reddy, Arun; ROY, ANIKET; de Melo, Celso; Chellappa, Rama</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">252</td>
+<td style="text-align: center;">Unconstrained Body Recognition at Altitude and Range: Comparing Four Approaches</td>
+<td style="text-align: center;">Myers, Blake; Hill, Matthew; Gandi, Veda; Metz, Thomas; O'Toole, Alice</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">136</td>
+<td style="text-align: center;">iLSU-T: an Open Dataset for Uruguayan Sign Language Translation</td>
+<td style="text-align: center;">Stassi, Ariel ; Boria, Yanina; Di Martino, Matías; Randall, Gregory</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">138</td>
+<td style="text-align: center;">Interactive Sign Language Question Answering Framework and Dataset for Barrier-Free Exhibition Service</td>
+<td style="text-align: center;">Heo, Seokyong; Jeon, Minsu; Lee, Subin; Kim, Jinwan; Ha, Seongheon; Cho, Suhyeon; Heo, Namyeong; Park, Jinsun</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">147</td>
+<td style="text-align: center;">CRAFT: Contextual Re-Activation of Filters for face recogntion Training</td>
+<td style="text-align: center;">Bhatta, Aman; Bowyer, Kevin; Mery, Domingo; Wu, Haiyu</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">247</td>
+<td style="text-align: center;">2D-3D Attention and Entropy for Pose Robust 2D Facial Recognition</td>
+<td style="text-align: center;">Peace, John; Hu, Shuowen; Riggan, Benjamin</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">174</td>
+<td style="text-align: center;">VISUALCENT: Visual Human Analysis using Dynamic Centroid Representation</td>
+<td style="text-align: center;">Ahmad, Niaz; Lee, Youngmoon;  Wang, Guanghui</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">175</td>
+<td style="text-align: center;">UniGait: A Unified Transformer-based Multitask Framework for Gait Analysis in the Wild</td>
+<td style="text-align: center;">Wang, Zhaoyang; Liu, Jiang; Guo, Yuxiang; Chen, Jieneng; Chellappa, Rama</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">179</td>
+<td style="text-align: center;">IlluSign: Illustrating Sign Language Videos by Leveraging Attention Mechanism</td>
+<td style="text-align: center;">Bruner, Janna; Wolf, Lior; moryossef, Amit</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">181</td>
+<td style="text-align: center;">Hand-Aware Masked Graph Convolutional Network for Skeleton-based Sign Language Recognition</td>
+<td style="text-align: center;">Qian, Jiyu; Shi, Dongzi; Zhang, Xin</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">205</td>
+<td style="text-align: center;">Dissecting Human Bodies Representations in Deep Networks Trained for Person Identification</td>
+<td style="text-align: center;">Metz, Thomas; Hill, Matthew; Myers, Blake; Nandan Gandi, Veda; Chilakapati, Rahul; O'Toole, Alice</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">188</td>
+<td style="text-align: center;">Hands-On: Segmenting Individual Signs from Continuous Sequences</td>
+<td style="text-align: center;">Low, Jian He; Walsh, Harry; Mercanoglu Sincan, Ozge; Bowden, Richard</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">58</td>
+<td style="text-align: center;">JAM: A Comprehensive Model for Age Estimation, Verification, and Comparability</td>
+<td style="text-align: center;">Novikov, Alexey; David, Francois; Parkhomenko, Ruslan; Voronin, Artem; Melchy, Alix</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">102</td>
+<td style="text-align: center;">Hue are you? Can Skin Depigmentation Affect Face Recognitions Performance?</td>
+<td style="text-align: center;">Annan, Joyce; Merino, Xavier; King, Michael</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">193</td>
+<td style="text-align: center;">Using Cross-Domain Detection Loss to Infer Multi-Scale Information for Improved Tiny Head Tracking</td>
+<td style="text-align: center;">Kim, Jisu; Mattingly, Alex; Lee, Eung-Joo; Riggan, Benjamin</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">189</td>
+<td style="text-align: center;">Dynamic Visual Speaking Patterns: You Are the Way You Speak</td>
+<td style="text-align: center;">Luo, Songtao; Yang, Shuang; Shan, Shiguang; Chen, Xilin</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">165</td>
+<td style="text-align: center;">Test-Time Augmentation for Pose-invariant Face Recognition</td>
+<td style="text-align: center;">Jung, Jaemin; Jang, Youngjoon; Chung, Joon Son</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">240</td>
+<td style="text-align: center;">Cognitive and Memory-Driven EEG-Based Authentication: A Multi-Session Approach to Secure Biometric Systems</td>
+<td style="text-align: center;">Bolouri, Soudabeh; Shukla, Diksha</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">224</td>
+<td style="text-align: center;">Gesture Recognition for Emergencies: Dataset and Cross-Condition Analysis</td>
+<td style="text-align: center;">Sinha, Jiya; Bhattacharya, Poulomi; Agarwal, Akshay</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">230</td>
+<td style="text-align: center;">HandOcc: NeRF-based Hand Rendering with Occupancy Networks</td>
+<td style="text-align: center;">Ivashechkin, Maksym; Mendez, Oscar; Bowden, Richard</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">Effects of Facial Hair on Face Recognition</td>
+<td style="text-align: center;">Ozturk, Kagan; Bezold, Grace; Bhatta, Aman; Wu, Haiyu; Bowyer, Kevin</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">48</td>
+<td style="text-align: center;">Improved Representation Learning for Unconstrained Face Recognition</td>
+<td style="text-align: center;">Gopalakrishnan Nair, Nithin; Narayan, Kartik; Suin, Maitreya; Kathirvel, Ram Prabhakar; Xu, Jennifer; Stevens, Soraya; Gleason, Joshua; Shnidman, Nathan; Chellappa, Rama; Patel, Vishal</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">248</td>
+<td style="text-align: center;">PyraSegNet: A Novel Framework for Thermal Facial Image Segmentation</td>
+<td style="text-align: center;">Riani, Kais; Abouelenien, Mohamed; Jouiri, Oumaima</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">253</td>
+<td style="text-align: center;">Transfer Learning from Visual Speech Recognition to Mouthing Recognition in German Sign Language</td>
+<td style="text-align: center;">Pham, Dinh Nam; Avramidis, Eleftherios</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div id="Wednesday" class="tabcontent">
+    <h1>Wednesday, May 28th (Island Ballroom)</h1>
+    <table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Time (EST)</th>
+<th style="text-align: center;">Activity</th>
+<th style="text-align: center;">Session Chair</th>
+<th style="text-align: center;">Paper #</th>
+<th style="text-align: center;">Paper Title</th>
+<th style="text-align: center;">Authors</th>
+</tr>
+</thead>
+<tbody>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<td style="text-align: center;">7:00 AM - 8:30 AM</td>
+<td colspan="5" style="text-align: center;"><b>Registration</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:00 AM - 9:00 AM</td>
+<td colspan="5" style="text-align: center;"><b>Continental Breakfast </b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:45 AM - 9:00 AM</td>
+<td colspan="5" style="text-align: center;"><b>Opening Session</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">9:00 AM - 10:00 AM</td>
+<td colspan="5"  style="text-align: center;"><h3>Keynote Speaker II</h3><b>Dr. Jonathan Gratch</b><br>Research Full Professor of Computer Science, Psychology and Media Arts and Practice<br>University of Southern California Viterbi</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">10:00 AM - 10:30 AM</td>
+<td colspan="5"  style="text-align: center;"><b>Coffee Break</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">10:30 AM - 11:30 AM</td>
+<td style="text-align: center;"><b>Oral Session IV</b><br>Affective Computing</td>
+<td style="text-align: center;">Yang Liu, Ph.D.<br>
+Postdoctoral Research Fellow, Center for Machine Vision and Signal Analysis, University of Oulu</td>
+<td style="text-align: center;">149</td>
+<td style="text-align: center;">Stochastic Transformers for Multimodal Stress Detection from Video</td>
+<td style="text-align: center;">Dia, Mamadou; Khodabandelou, Ghazaleh; OTHMANI, ALICE</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">66</td>
+<td style="text-align: center;">Decoding Emotions: How Graph Transformer with Adaptive Graph Structure Learning Understands Micro-Expressions</td>
+<td style="text-align: center;">Cheng, Xuanqi; Shang, Lin</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">Cross-modal Emotion-specific Attention model for Multimodal Emotion Recognition</td>
+<td style="text-align: center;">Chen, Jiayi; John, Vijay; kawanishi, yasutomo</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">64</td>
+<td style="text-align: center;">Investigating Role of Big Five Personality Traits in Audio-Visual Rapport Estimation</td>
+<td style="text-align: center;">Hayashi, Takato; Kimura, Ryusei; Ishii, Ryo; Okada, Shogo</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">11:30 AM - 12:30 PM</td>
+<td style="text-align: center;"><b>Poster Spotlights</b> <br>Spotlight Talks for Poster Session II</td>
+<td style="text-align: center;">Diego L. Guarin, Ph.D <br>   Assistant Professor, Department of Applied Physiology and Kinesiology<br>   University of Florida</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">1:00 PM - 2:00 PM</td>
+<td colspan="5" style="text-align: center;"><b>Lunch (Mainstay Tavern)</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">2:00 PM - 3:00 PM</td>
+<td colspan="5" style="text-align: center;"><b>Ask Me Anything</b> <br> with the Keynote Speakers</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">3:00 PM - 3:15 PM</td>
+<td colspan="5" style="text-align: center;"><b>Coffee Break</b></td>
+
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">3:15 PM - 4:15 PM</td>
+<td style="text-align: center;"><b>Oral Session V</b><br>Face Expression and Analysis</td>
+<td style="text-align: center;">Yang Liu, Ph.D.<br>
+Postdoctoral Research Fellow, Center for Machine Vision and Signal Analysis, University of Oulu</td><td style="text-align: center;">112</td>
+<td style="text-align: center;">Dynamic balanced multi-scale feature fusion for facial expression recognition</td>
+<td style="text-align: center;">Qi, Yongfeng; CHEN, HUILI; Wen, Shengcong</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">FERGI: Automatically Scoring of User Preferences for Text-to-Image Generation from Spontaneous Facial Expression Reaction</td>
+<td style="text-align: center;">Feng, Shuangquan; Ma, Junhua; de Sa, Virginia</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">184</td>
+<td style="text-align: center;">Beyond FACS: Data-driven Facial Expression Dictionaries, with Application to Predicting Autism</td>
+<td style="text-align: center;">Sariyanidi, Evangelos; Yankowitz, Lisa; Schultz, Robert T.; Herrington, John D.; Tunc, Birkan; Cohn, Jeffrey</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">269</td>
+<td style="text-align: center;">Disentangled Source-Free Personalization for Facial Expression Recognition with Neutral Target Data</td>
+<td style="text-align: center;">Sharafi, Masoumeh; Ollivier, Emma; Zeeshan, Muhammad Osama; Belharbi, Soufiane; Pedersoli, Marco; Lameiras Koerich, Alessandro; Bacon, Simon; Granger, Eric</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">4:15 PM - 5:30 PM</td>
+<td style="text-align: center;"><b>Poster Session II</b> <br>(Including DC Posters)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">112</td>
+<td style="text-align: center;">Dynamic balanced multi-scale feature fusion for facial expression recognition</td>
+<td style="text-align: center;">Qi, Yongfeng; CHEN, HUILI; Wen, Shengcong</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">149</td>
+<td style="text-align: center;">Stochastic Transformers for Multimodal Stress Detection from Video</td>
+<td style="text-align: center;">Dia, Mamadou; Khodabandelou, Ghazaleh; OTHMANI, ALICE</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">FERGI: Automatically Scoring of User Preferences for Text-to-Image Generation from Spontaneous Facial Expression Reaction</td>
+<td style="text-align: center;">Feng, Shuangquan; Ma, Junhua; de Sa, Virginia</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">184</td>
+<td style="text-align: center;">Beyond FACS: Data-driven Facial Expression Dictionaries, with Application to Predicting Autism</td>
+<td style="text-align: center;">Sariyanidi, Evangelos; Yankowitz, Lisa; Schultz, Robert T.; Herrington, John D.; Tunc, Birkan; Cohn, Jeffrey</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">269</td>
+<td style="text-align: center;">Disentangled Source-Free Personalization for Facial Expression Recognition with Neutral Target Data</td>
+<td style="text-align: center;">Sharafi, Masoumeh; Ollivier, Emma; Zeeshan, Muhammad Osama; Belharbi, Soufiane; Pedersoli, Marco; Lameiras Koerich, Alessandro; Bacon, Simon; Granger, Eric</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">66</td>
+<td style="text-align: center;">Decoding Emotions: How Graph Transformer with Adaptive Graph Structure Learning Understands Micro-Expressions</td>
+<td style="text-align: center;">Cheng, Xuanqi; Shang, Lin</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">Cross-modal Emotion-specific Attention model for Multimodal Emotion Recognition</td>
+<td style="text-align: center;">Chen, Jiayi; John, Vijay; kawanishi, yasutomo</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">154</td>
+<td style="text-align: center;">Salience Adjustment for Context-Based Emotion Recognition</td>
+<td style="text-align: center;">Han, Bin; Gratch, Jonathan</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">Dual-Branch Partial Annotation Learning for Facial Attributes Recognition</td>
+<td style="text-align: center;">Han, Dan; He, Mingjie; Zhang, Jie; Shan, Shiguang</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">210</td>
+<td style="text-align: center;">Boosting Tiny Face Detection in Videos with an Integral Score Framework</td>
+<td style="text-align: center;">Leyva, Roberto; Guodong, Shen; Bahadir, Ozan; Sanchez, Victor; Guha, Tanaya</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">64</td>
+<td style="text-align: center;">Investigating Role of Big Five Personality Traits in Audio-Visual Rapport Estimation</td>
+<td style="text-align: center;">Hayashi, Takato; Kimura, Ryusei; Ishii, Ryo; Okada, Shogo</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">95</td>
+<td style="text-align: center;">AffectVLM: Contrastive Language-Image Learning with Augmented Textual Prompts for 3D/4D Facial Expression Recognition Using Vision-Language Model</td>
+<td style="text-align: center;">Behzad, Muzammil; Zhao, Guoying</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">70</td>
+<td style="text-align: center;">Exploring the Temporal Dynamics of Facial Mimicry in Emotion Processing Using Action Units</td>
+<td style="text-align: center;">Jamshidi Seikavandi, Meisam; Fimland, Jostein; Barrett, Maria; Burelli, Paolo</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">213</td>
+<td style="text-align: center;">Pioneering Facial Expression Generation from sEMG Signals with Diffusion Models</td>
+<td style="text-align: center;">SHU, LUN; Koike, Yasuharu</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">61</td>
+<td style="text-align: center;">Revisiting Representation Learning and Identity Adversarial Training for Facial Behavior Understanding</td>
+<td style="text-align: center;">Ning, Mang; Salah, Albert Ali; Onal Ertugrul, Itir</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">152</td>
+<td style="text-align: center;">Trajectory-guided Motion Perception for Facial Expression Quality Assessment in Neurological Disorders</td>
+<td style="text-align: center;">Duan, Shuchao; Dadashzadeh, Amirhossein; Whone, Alan; Mirmehdi, Majid</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">217</td>
+<td style="text-align: center;">Towards Fair and Robust Face Parsing for Generative AI: A Multi-Objective Approach</td>
+<td style="text-align: center;">Abraham, Sophia; Haunstein, Jonathan; Scherier, Walter</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">79</td>
+<td style="text-align: center;">Context-Assisted Low-Light Face Detection through Global and Local Image Enhancement</td>
+<td style="text-align: center;">Miao, Xiangyu; Zhang, Caichao; Chang, Yanan; Wang, Shangfei</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">139</td>
+<td style="text-align: center;">BioGaze: a framework for evaluating the photographic requirements of the ISO/IEC 39794-5 standard</td>
+<td style="text-align: center;">Elatfi, Osama; Di Domenico, Nicolò; Borghi, Guido; Franco, Annalisa; Maltoni, Davide</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">27</td>
+<td style="text-align: center;">CFFN: Cascaded Feature Fusion Network for Facial Expression</td>
+<td style="text-align: center;">Hu, Xiangyu; Yang, Hongpeng; Tong, Yan</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">101</td>
+<td style="text-align: center;">Audio-Driven Emotional 3D Talking-Head Generation</td>
+<td style="text-align: center;">Wang, Wenqing; FU, YUN</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">88</td>
+<td style="text-align: center;">SelfMAD: Enhancing Generalization and Robustness in Morphing Attack Detection via Self-Supervised Learning</td>
+<td style="text-align: center;">Ivanovska, Marija; Todorov, Leon; Damer, Naser; Jain, Deepak; Peer, Peter; Struc, Vitomir</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">4:15 PM - 5:30 PM</td>
+<td style="text-align: center;"><b>Demo Session</b></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PosePilot - A Web-Based Application for Human Motion Data Analysis and Visualization</td>
+<td style="text-align: center;">Alina Glushkova</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Testing Peepers on Pixels: A Demo of Human Recognition Accuracy for Low Resolution Faces</td>
+<td style="text-align: center;">Xavier Merino</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Instant 3DCG Dance Generation System Based on Music and Dance Composition</td>
+<td style="text-align: center;">Ryo Ishii</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">6:00PM - 7:00 PM </td>
+<td colspan="5" style="text-align: center;"><b>Cocktail Reception</b></td> 
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">7:00PM - 9:00 PM </td>
+<td colspan="5" style="text-align: center;"> <b>Dinner Buffet and FG Awards</b></td> 
+</tr>
+</tbody>
+</table>
+</div>
+
+
+<div id="Thursday" class="tabcontent">
+    <h1>Thursday, May 29th (Island Ballroom)</h1>
+    <table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Time (EST)</th>
+<th style="text-align: center;">Activity</th>
+<th style="text-align: center;">Session Chair</th>
+<th style="text-align: center;">Paper #</th>
+<th style="text-align: center;">Paper Title</th>
+<th style="text-align: center;">Authors</th>
+</tr>
+</thead>
+<tbody>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<td style="text-align: center;">7:00 AM - 8:30 AM</td>
+<td colspan="5" style="text-align: center;"><b>Registration</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:00 AM - 9:00 AM</td>
+<td colspan="5" style="text-align: center;"><b>Continental Breakfast </b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:45 AM - 9:00 AM</td>
+<td colspan="5" style="text-align: center;"><b>Opening Session</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">9:00 AM - 10:00 AM</td>
+<td colspan="5" style="text-align: center;"><h3>Keynote Speaker 3</h3><b>Stephanie Schuckers</b><br>Bank of America Distinguished Professor,  Computing &amp; Informatics, Universityof North Carolina</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">10:00 AM - 10:30 AM</td>
+    <td colspan="5" style="text-align: center;"><b>Coffee Break</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">10:30 AM - 11:30 AM</td>
+<td style="text-align: center;"><b>Oral Session VI</b><br>Generative AI</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">145</td>
+<td style="text-align: center;">dc-GAN: Dual-Conditioned GAN for Face Demorphing From a Single Morph</td>
+<td style="text-align: center;">Shukla, Nitish; Ross, Arun</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Analysis of Human Perception in Distinguishing Real and AI-Generated Faces: An Eye-Tracking Based Study</td>
+<td style="text-align: center;">Huang, Jin; Gopalakrishnan, Subhadra; Mittal, Trisha; Zuena, Jake; Pytlarz, Jaclyn</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">127</td>
+<td style="text-align: center;">JanusGAN: GANs Disentangled Editing with Two Discriminators</td>
+<td style="text-align: center;">FARMER, Neil; Soladié, Catherine; Cazorla, Gabriel; Séguier, Renaud</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">132</td>
+<td style="text-align: center;">DM-DPR: Diffusion and Mamba-based Degradation Prediction for Blind Face Restoration</td>
+<td style="text-align: center;">Wu, Tao; Yuan, Guorong; Huang, Huaibo; Cao, Jie; Ai, Yuang; He, Ran</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">11:30 AM - 12:30 PM</td>
+<td style="text-align: center;">Poster Spotlights<br> From Poster Session 3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">1:00 PM - 2:00 PM</td>
+<td colspan="5" style="text-align: center;"><b>Lunch (Rusty's Dining Room)</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">2:00 PM - 3:00 PM</td>
+    <td style="text-align: center;"><b>Oral Session VII</b><br>Security, Privacy, and Attacks</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">129</td>
+<td style="text-align: center;">Unifying and Conquering Adversarial Attacks against Deep Face Recognition</td>
+<td style="text-align: center;">Guo, Jia; Du, Zhipeng; Deng, Jiankang</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">142</td>
+<td style="text-align: center;">Spatiotemporal Face Alignment for Generalizable Deepfake Detection</td>
+<td style="text-align: center;">Cobo, Alejandro; Valle, Roberto; Buenaposada, José Miguel; Baumela, Luis</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">75</td>
+<td style="text-align: center;">Towards Open-set Face Anti-spoofing with Unseen Presentation Attack Synthesis</td>
+<td style="text-align: center;">Liu, Chang; Zhang, Yitian; Yin, Yu; FU, YUN</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">Privacy-Preserving Person Re-Identification from Temporal Sequences with Transformer and Hungarian Optimization</td>
+<td style="text-align: center;">Delécluse, Raphaël; Wannous, Hazem; Guimas, Laurent</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">3:00 PM - 3:15 PM</td>
+<td colspan="5"  style="text-align: center;"><b>Coffee Break</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">3:15 PM - 4:15 PM</td>
+    <td style="text-align: center;"><b>Oral Session VIII</b><br>Datasets, Tools, and Applications</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">137</td>
+<td style="text-align: center;">MultiSensor-Home: A Wide-area Multi-modal Multi-view Dataset for Action Recognition and Transformer-based Sensor Fusion</td>
+<td style="text-align: center;">NGUYEN, Trung Thanh; Kawanishi, Yasutomo; John, Vijay; Komamizu, Takahiro; Ide, Ichiro</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">80</td>
+<td style="text-align: center;">3D Face Reconstruction Error Decomposed: A Modular Benchmark for Fair and Fast Method Evaluation</td>
+<td style="text-align: center;">Sariyanidi, Evangelos; Ferrari, Claudio; Nocentini, Federico; Berretti, Stefano; Cavallaro, Andrea; Tunc, Birkan</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">256</td>
+<td style="text-align: center;">OpenVisage: A Lightweight Multitask System for Comprehensive Facial Behavior Analysis</td>
+<td style="text-align: center;">Hu, Jiewen; Mathur, Leena; Liang, Paul Pu; Morency, Louis-Philippe</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;">Sheep Facial Pain Assessment Under Weighted Graph Neural Networks</td>
+<td style="text-align: center;">Noor, Alam; Almeida, Luis; Daoudi, Mohamed; Li, Kai; Tovar, Eduardo</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">4:15 PM - 5:30 PM</td>
+<td style="text-align: center;">Poster Session 3 (34)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">145</td>
+<td style="text-align: center;">dc-GAN: Dual-Conditioned GAN for Face Demorphing From a Single Morph</td>
+<td style="text-align: center;">Shukla, Nitish; Ross, Arun</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Analysis of Human Perception in Distinguishing Real and AI-Generated Faces: An Eye-Tracking Based Study</td>
+<td style="text-align: center;">Huang, Jin; Gopalakrishnan, Subhadra; Mittal, Trisha; Zuena, Jake; Pytlarz, Jaclyn</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">137</td>
+<td style="text-align: center;">MultiSensor-Home: A Wide-area Multi-modal Multi-view Dataset for Action Recognition and Transformer-based Sensor Fusion</td>
+<td style="text-align: center;">NGUYEN, Trung Thanh; Kawanishi, Yasutomo; John, Vijay; Komamizu, Takahiro; Ide, Ichiro</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">129</td>
+<td style="text-align: center;">Unifying and Conquering Adversarial Attacks against Deep Face Recognition</td>
+<td style="text-align: center;">Guo, Jia; Du, Zhipeng; Deng, Jiankang</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">142</td>
+<td style="text-align: center;">Spatiotemporal Face Alignment for Generalizable Deepfake Detection</td>
+<td style="text-align: center;">Cobo, Alejandro; Valle, Roberto; Buenaposada, José Miguel; Baumela, Luis</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">127</td>
+<td style="text-align: center;">JanusGAN: GANs Disentangled Editing with Two Discriminators</td>
+<td style="text-align: center;">FARMER, Neil; Soladié, Catherine; Cazorla, Gabriel; Séguier, Renaud</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">75</td>
+<td style="text-align: center;">Towards Open-set Face Anti-spoofing with Unseen Presentation Attack Synthesis</td>
+<td style="text-align: center;">Liu, Chang; Zhang, Yitian; Yin, Yu; FU, YUN</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">80</td>
+<td style="text-align: center;">3D Face Reconstruction Error Decomposed: A Modular Benchmark for Fair and Fast Method Evaluation</td>
+<td style="text-align: center;">Sariyanidi, Evangelos; Ferrari, Claudio; Nocentini, Federico; Berretti, Stefano; Cavallaro, Andrea; Tunc, Birkan</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">256</td>
+<td style="text-align: center;">OpenVisage: A Lightweight Multitask System for Comprehensive Facial Behavior Analysis</td>
+<td style="text-align: center;">Hu, Jiewen; Mathur, Leena; Liang, Paul Pu; Morency, Louis-Philippe</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">The AgeDB-30M Dataset: Melanated Faces for Age-Invariant Face Recognition</td>
+<td style="text-align: center;">Beaubrun, Audison ; Annan, Joyce; Wu, Haiyu; Merino, Xavier; Bowyer, Kevin; King, Michael</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">125</td>
+<td style="text-align: center;">IndicSideFace: A Dataset for Advancing Deepfake Detection on Side-Face Perspectives of Indian Subjects</td>
+<td style="text-align: center;">Deo, Anurag; Bangar, Aditya; Adak, Chandranath; Verma, Rahul; Nagar, Deepak; Akhtar, Zahid; Dutta, Soumya; Chattopadhyay, Soumi; Chanda, Sukalpa</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">132</td>
+<td style="text-align: center;">DM-DPR: Diffusion and Mamba-based Degradation Prediction for Blind Face Restoration</td>
+<td style="text-align: center;">Wu, Tao; Yuan, Guorong; Huang, Huaibo; Cao, Jie; Ai, Yuang; He, Ran</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">155</td>
+<td style="text-align: center;">Chasing Shadows: Solving Deepfake Detection Benchmarks Using Irrelevant Features Only</td>
+<td style="text-align: center;">Xu, Ying; Terhörst, Philipp; Pedersen, Marius; Raja, Kiran</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">156</td>
+<td style="text-align: center;">Are Foundation Models All You Need for Zero-shot Face Presentation Attack Detection?</td>
+<td style="text-align: center;">Gonzalez-Soler, Lazaro ; Tapia Farias, Juan; Busch, Christoph</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">146</td>
+<td style="text-align: center;">Custom Condition Generation for Zero-Shot Human-Scene Interactions Synthesis</td>
+<td style="text-align: center;">Kawamura, Ryosuke; Milacski, Zoltán;  de la Torre, Fernando; Jeni, Laszlo; Niinuma, Koichiro</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">228</td>
+<td style="text-align: center;">Multi-Task Learning for Hierarchical Professional Gesture Recognition: State-Space Modeling for Task Temporal Dependencies</td>
+<td style="text-align: center;">Senteri, Gavriela; Manitsaris, Sotiris; Glushkova, Alina</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">242</td>
+<td style="text-align: center;">Wearable-Derived Behavioral and Physiological Biomarkers for Classifying Unipolar and Bipolar Depression Severity</td>
+<td style="text-align: center;">Ouzar, Yassine; Nineuil, Clemence; Boutaleb, Fouad; Pierson, Emery; Amad, Ali; Daoudi, Mohamed</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">235</td>
+<td style="text-align: center;">FaceCloak: Learning to Protect Face Templates</td>
+<td style="text-align: center;">Banerjee, Sudipta; Jain, Anubhav; Hegde, Chinmay; Memon, Nasir</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">148</td>
+<td style="text-align: center;">GaussianGAN: Real-Time Photorealistic controllable Human Avatars</td>
+<td style="text-align: center;">Lakhal, Mohamed; Bowden, Richard</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">DiffusionAct: Controllable Diffusion Autoencoder for One-shot Face Reenactment</td>
+<td style="text-align: center;">Bounareli, Stella; Tzelepis, Christos; Argyriou, Vasileios; Patras, Ioannis; Tzimiropoulos, Georgios</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">272</td>
+<td style="text-align: center;">Investigating Social Biases in Multimodal LLMs</td>
+<td style="text-align: center;">Perera, Malsha; Narayan, Kartik; Patel, Vishal</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">229</td>
+<td style="text-align: center;">Your Face, Your Privacy: Combating Unauthorized Usage</td>
+<td style="text-align: center;">Kumar, Atul; Agarwal, Akshay; Ratha, Nalini</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">Privacy-Preserving Person Re-Identification from Temporal Sequences with Transformer and Hungarian Optimization</td>
+<td style="text-align: center;">Delécluse, Raphaël; Wannous, Hazem; Guimas, Laurent</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">128</td>
+<td style="text-align: center;">Towards Iris Presentation Attack Detection with Foundation Models</td>
+<td style="text-align: center;">Tapia, Juan; Gonzalez-Soler, Janier; Busch, Christoph</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;">Sheep Facial Pain Assessment Under Weighted Graph Neural Networks</td>
+<td style="text-align: center;">Noor, Alam; Almeida, Luis; Daoudi, Mohamed; Li, Kai; Tovar, Eduardo</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">214</td>
+<td style="text-align: center;">Shielding Latent Face Representations From Privacy Attacks</td>
+<td style="text-align: center;">Kaushik, Arjun Ramesh ; Yalavarthi, Bharat Chandra; Ross, Arun; Boddeti, Vishnu; Ratha, Nalini</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">244</td>
+<td style="text-align: center;">ID-Booth: Identity-consistent Face Generation with Diffusion Models</td>
+<td style="text-align: center;">Tomaevi?, Darian; Boutros, Fadi; Lin, Chenhao; Damer, Naser; truc, Vitomir; Peer, Peter</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">47</td>
+<td style="text-align: center;">IVORY: Adversarial Purification of Obfuscated Faces to Extract  Soft-Biometrics using Diffusion Transformers</td>
+<td style="text-align: center;">Shahriyar, Shaikh Akib; Wright, Matthew; Barton, Armon</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">94</td>
+<td style="text-align: center;">SmoothFace: Class-Conditional Label Smoothing for Synthetic-based Face Recognition</td>
+<td style="text-align: center;">Huber, Marco; Boutros, Fadi; Damer, Naser</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">131</td>
+<td style="text-align: center;">A Skeleton-based Geometric Deep Neural Network for Alzheimer's Disease Mice Behavioral Analysis</td>
+<td style="text-align: center;">Olaoluwa, Mubarak; Drira, Hassen; Ben Abdallah, Ines; Harsan, Laura; Mathis, Chantal</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">232</td>
+<td style="text-align: center;">Expanding on the BRIAR Dataset: A Comprehensive Whole Body Biometric Recognition Resource at Extreme Distances and Real-World Scenarios (Collections 1-4)</td>
+<td style="text-align: center;">Jager, Gavin; Cornett, David; Glenn, Gavin; Aykac, Deniz; Johnson, Christi; Zhang, Robert; Shivers, Ryan; Bolme, David; Davies, Laura; Dolvin, Scott; Barber, Nell ; Brogan, Joel ; Burchfield, Nick ; Dukes, Carl ; Duncan, Andrew ; Ferrell, Regina ; Garrett, Austin ; Goddard, Jim ; Hines, Jairus ; Murphy, Bart ; Pharris, Sean ; Stockwell, Brandon ; Thompson, Leanne ; Yohe, Matt</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">78</td>
+<td style="text-align: center;">Robust Deepfake Detection for Electronic Know Your Customer Systems Using Registered Images</td>
+<td style="text-align: center;">Amada, Takuma; Kakizaki, Kazuya; Miyagawa, Taiki; Ebihara, Akinori ; Shiohara, Kaede; Yamasaki, Toshihiko</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;">OASIS: Object-guided Attention for Text-conditional Diffusion Synthesis of Human Interaction Sequences</td>
+<td style="text-align: center;">Yang, Chih-Chun; Cai, Tianhui; Milacski, Zoltán; Prakash, Aayush; Takagi, Shingo; Kim, Daeil; de la Torre, Fernando</td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">5:30PM - 5:45PM</td>
+    <td style="text-align: center;"><b>Closing Session</b></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+<div id="Friday" class="tabcontent">
+    <h1>Friday, May 30th</h1>
+    <table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<th style="text-align: center;"><b>Time</b></th>
+<th style="text-align: center;"><b>Island Room I</b></th>
+<th style="text-align: center;"><b>Island Room II</b></th>
+</tr>
+</thead>
+<tbody>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:00 AM - 9:00 AM (Mainstay Tavern)</td>
+<td colspan="2" style="text-align: center;"><b>Continental Breakfast </b></td>
+</tr>
+<tr style="text-align: right;">
+<th style="text-align: center;"></th>
+<td style="text-align: center;">8:00 AM - 12:30 PM</td>
+<td style="text-align: center;"><b>Towards Trustworthy Facial Affect Analysis: Advancing Insights of Fairness, Explainability, and Safety</b></td>
+    <td style="text-align: center;"><b>First International Workshop on Foundation and Multimodal Large Language and Generative Models for Face and Gesture Recognition</b></td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">12:00 PM - 1:00 PM (Rusty's Dining Room)</td>
+    <td colspan="2" style="text-align: center;"> <b>Lunch</b> </td>
+<td style="text-align: center;"> </td>
+</tr>
+<tr>
+<th style="text-align: center;"></th>
+<td style="text-align: center;">1:30 PM - 6:00 PM</td>
+<td style="text-align: center;"><b>Second Workshop on Interdisciplinary Applications of Biometrics and Identity Science (InterID)</b></td>
+    <td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+<script>
+function openDay(evt, dayName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        tabcontent[i].classList.remove("active");
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(dayName).style.display = "block";
+    document.getElementById(dayName).classList.add("active");
+    evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html>
