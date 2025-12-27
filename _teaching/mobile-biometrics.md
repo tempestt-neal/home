@@ -6,7 +6,9 @@ permalink: /teaching/mobile-biometrics
 venue: "University of South Florida, Bellini College of AI, Cybersercurity and Computing"
 ---
 
-Topics include foundations of biometric systems, mobile biometric modalities and features, and adversary attacks.
+I developed this course in Fall 2018 to introduce biometric systems, with a particular focus on data types used in commercial platforms. It is typically cross-listed to support both undergraduate and graduate students. 
+
+This course has traditionally been offered in the Fall semester (2018-2022, 2025). 
 
 ## Course Objectives
 The objectives of this course are to develop students’:
