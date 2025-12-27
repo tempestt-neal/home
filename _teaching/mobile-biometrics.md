@@ -3,7 +3,7 @@ title: "CAP 4103/CAP 6101"
 collection: teaching
 type: "Mobile Biometrics"
 permalink: /teaching/mobile-biometrics
-venue: "University of South Florida, Department of Computer Science and Engineering"
+venue: "University of South Florida, Bellini College of AI, Cybersercurity and Computing"
 ---
 
 Topics include foundations of biometric systems, mobile biometric modalities and features, and adversary attacks.
@@ -49,9 +49,3 @@ Students will demonstrate the ability to:
 | 15   | Biometric Applications                                                          |
 | 16   | Test Free Week and Guest Lectures                                                         |
 | 17   | Project Presentations                                                                     |
-
-## Graded Items
-- Project: 40%
-- Essay: 30%
-- Homework: 20%
-- Participation and Engagement: 10%
