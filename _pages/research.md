@@ -28,42 +28,19 @@ author_profile: true
 
 {% include base_path %}
 
-The **C**yber **I**dentity and **Be**havior **R**esearch (CIBeR) Lab is part of the [Department of Computer Science and Engineering](https://www.usf.edu/engineering/cse/) at the [University of South Florida](https://www.usf.edu/). The lab conducts research on applying AI, mobile device sensing, and human-centered computing to enhance the usability of cybersecurity systems and study human behavior in interdisciplinary contexts, such as mental health. Our research projects include:
+I direct the **C**yber **I**dentity and **Be**havior **R**esearch (CIBeR) Lab at the University of South Florida. We study what it means for technology to “know” us—our identity, our behavior, and our intentions—and how to design systems that use that knowledge responsibly. Because this question is broad and deeply human, our work naturally spans multiple fields, including mental health, defense, medicine, education, and cybersecurity. This research focus requires—and benefits from—highly collaborative, interdisciplinary partnerships. At the core, my lab is interested in why people behave the way they do in a digital world and what those behaviors tell us about trust, risk, and decision-making.
 
-> [Inclusive Cybersecurity Through the Lens of Accessible Identity and Access Management (I-CLAIM)](https://tempestt-neal.github.io/home/research/iclaim/)
+If someone gives a child a smartphone, we want to know why and whether they understand the potential risks. If someone writes their passwords on paper, we want to know why and how to teach cybersecurity and identity management in ways that actually fit real life. We build AI systems and sensing technologies when needed, but the motivation begins with the human questions: what drives our decisions, what we believe about technology, and how those beliefs shape—and are shaped by—our interactions with intelligent systems.
 
-> [Continuous User Authentication on Everyday Devices](https://tempestt-neal.github.io/home/research/continuousauthentication/)
+Our recent work applies this perspective to mental health and well-being, generative AI systems such as ChatGPT, biometric and identity technologies, and cybersecurity systems more broadly. Across these domains, our goal is the same: *to understand the dynamics of human–AI interaction and use that understanding to guide the design of systems that people can trust, use, and live with.*
 
-> [Mobile Biometrics](https://tempestt-neal.github.io/home/research/mobilebiometrics/)
+To answer these questions, we combine biometric intelligence (physiological and behavioral sensing), machine learning, and qualitative inquiry. We often collect signals from everyday technologies—phones, smartwatches, keyboards, and other devices—to understand how people behave and how identity or intent can be represented through movement, interaction, and language. We pair these data-driven approaches with interviews, surveys, focus groups, and user studies to learn why people make the choices they do and what they need from technology to feel safe, supported, and understood.
 
-## **Current Students**
----
+We build and evaluate AI models, biometric systems, and security tools when doing so helps us uncover those patterns—or when existing systems don’t yet answer the questions we care about. We run longitudinal studies to observe how behaviors and attitudes change over time, and we design controlled experiments to isolate the effects of trust, stress, uncertainty, or perceived risk. In parallel, we examine emerging technologies such as generative AI and speculative AI systems to anticipate future challenges.
 
-<div class="gallery">
-  <div class="gallery-item">
-    <img src="../images/hoorad.jpeg">
-    <div>Hoorad Abootalebi<br>Ph.D. Student</div>
-  </div>
-  <div class="gallery-item">
-    <img src="../images/meghna.jpg">
-    <div>Meghna Chaudhary<br>Ph.D. Candidate</div>
-  </div>
-  <div class="gallery-item">
-    <img src="../images/wilson.jpeg">
-    <div>Wilson Lozano<br>Ph.D. Student</div>
-  </div>
-  <div class="gallery-item">
-    <img src="../images/sayde.png">
-    <div>Sayde King <br> Ph.D. Candidate</div>
-  </div>
-  <div class="gallery-item">
-    <img src="../images/parush.jpg">
-    <div>Parush Gera<br>Ph.D. Candidate</div>
-  </div>
-</div>
+Across these methods, our goal is not just to measure behavior or build systems, but to connect what technology can detect with what people actually experience, and to translate those insights into technologies that are secure, usable, and aligned with human needs.
 
-
-# **Joining the Lab**
+# Interesting in Joining the CIBeR Lab?
 ---
 
 _Currently, we do not have funding and can only welcome you if you have a fellowship._
