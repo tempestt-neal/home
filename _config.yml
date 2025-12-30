@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Tempestt Neal, Ph.D."
   pronouns         : # "she/her"  
-  bio              : "Associate Professor, University of South Florida"
+  bio              : "Associate Professor"
   location         : "Tampa, FL"
-  employer         : # "Associate Professor, University of South Florida" #, Department of Computer Science and Engineering"
+  employer         : "Bellini College of Artificial Intelligence, Cybersecurity and Computing, University of South Florida" 
   uri              : # URL
   email            : "tjneal@usf.edu" 
 
