@@ -26,7 +26,10 @@ author:
   pronouns         : # "she/her"  
   bio              : "Associate Professor"
   location         : "Tampa, FL"
-  employer         : "Bellini College of Artificial Intelligence, Cybersecurity and Computing, University of South Florida" 
+  employer: |
+  Bellini College of Artificial Intelligence,
+  Cybersecurity and Computing,
+  University of South Florida
   uri              : # URL
   email            : "tjneal@usf.edu" 
 
