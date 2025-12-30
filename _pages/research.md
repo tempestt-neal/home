@@ -191,17 +191,20 @@ Ph.D. students with experience in one or more of the following are encouraged to
 - Data mining
 
 Ph.D. expectations:
+
 - Mentor undergraduate students
 - Communicate research effectively
 - Work collaboratively and productively
 
 Email materials:
+
 1. Summary of two projects & your contributions  
 2. Your perspective on CIBeR lab work & how you'd expand it  
 3. Coursework + final grades  
 4. Degree + expected start date at USF  
 5. Updated CV + publications/slides if available  
 6. **Link to personal website**
+
 </details>
 
 <details>
