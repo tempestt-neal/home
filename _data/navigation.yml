@@ -7,6 +7,6 @@ main:
   - title: "Courses"
     url: /teaching/   
 
-- title: "Datasets"
+  - title: "Datasets"
     url: /datasets/   
 
