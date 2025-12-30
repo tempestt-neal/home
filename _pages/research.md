@@ -163,8 +163,7 @@ Anticipating expectations, concerns, and equity considerations before systems ex
 
 ### Master's Alumni
 
-- **[Khadija Zanna](https://www.linkedin.com/in/khzanna/)**, M.S. — Now at **[Position, Company/University]**
-
+- **[Khadija Zanna](https://www.linkedin.com/in/khzanna/)**, M.S., (2022)
 </div>
 </details>
 
