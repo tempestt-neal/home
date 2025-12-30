@@ -132,40 +132,34 @@ Anticipating expectations, concerns, and equity considerations before systems ex
 <summary><strong>Active Members</strong></summary>
 
 ### Ph.D. Students
-- **Tyree Lewis** — Ph.D. Student (Human–AI Interaction, Continuous Authentication)
-- **Wilson Lozano** — Ph.D. Student (Cybersecurity & Behavioral Biometrics)
-- **Parush [Last Name]** — Ph.D. Student (NLP & Deception Detection)
-- **Meghna Chaudhary** — Ph.D. Student (Sensing + Behavior; Human–AI Interaction)
-- **Hoorad Abootaebi** — Ph.D. Student (Qualitative Inquiry & User Perspectives in Emerging AI)
 
-### Master's Students
-- **[Name]** — M.S. Student (Biometric Intelligence & Multimodal Sensing)
-- **[Name]** — M.S. Student (Human-Centered Cybersecurity)
-- **[Name]** — M.S. Student (AI for Well-Being)
+- **[Tyree Lewis](https://www.linkedin.com/in/tyree-lewis-366934122/)** — Ph.D. Candidate (Human-Centered Biometric Systems)
+- **[Wilson Lozano](https://www.linkedin.com/in/wilson-lozano/)** — Ph.D. Candidate (Context in Continuous Authentication Systems)
+- **[Meghna Chaudhary](https://www.linkedin.com/in/meghna-chaudhary-a9247b131/)** — Ph.D. Candidate (Natural Language Processing)
+- **[Hoorad Abootaebi](https://www.linkedin.com/in/hooradaboo/)** — Ph.D. Candidate (Human-Centered Cybersecurity)
 
-### Undergraduate Researchers
-- **[Name]** — B.S. Student (Cyber Behavior & Identity)
-- **[Name]** — B.S. Student (Security Habits & Risk Perception)
-- **[Name]** — B.S. Student (LLM Interaction Patterns)
+### Master's Thesis Students
+
+- **[Anil Mumbuc](https://www.linkedin.com/in/anil-mumbuc-046842225/)** — M.S. Student (Cognitive Parallels in Generative AI)
+
+### Undergraduate Thesis Students
+
+- **[Isadora Grasel](https://www.linkedin.com/in/isadoragrasel/)** — B.S. Student (Mis/Disinformation Detection Using Stylometry)
 
 </details>
-
-
 
 <details>
 <summary><strong>Lab Alumni</strong></summary>
 
 ### Ph.D. Alumni
-- **[Name]**, Ph.D. — Now at **[Position, Company/University]**
-- **[Name]**, Ph.D. — Now at **[Position, Company/University]**
+
+- **[Parush Gera](https://www.linkedin.com/in/parush-gera-ph-d-6b72a063/)**, Ph.D., 2025
+- **[Sayde King](https://www.linkedin.com/in/saydeking/)**, Ph.D., 2025
+- **[Steven Diaz](https://www.linkedin.com/in/stevendiazhernandez/)**, Ph.D., 2022
 
 ### Master's Alumni
-- **[Name]**, M.S. — Now at **[Position, Company/University]**
-- **[Name]**, M.S. — Now at **[Position, Company/University]**
 
-### Undergraduate Alumni
-- **[Name]**, B.S. — Now at **[Graduate Program / Company]**
-- **[Name]**, B.S. — Now at **[Graduate Program / Company]**
+- **[Khadija Zanna](https://www.linkedin.com/in/khzanna/)**, M.S. — Now at **[Position, Company/University]**
 
 </details>
 
