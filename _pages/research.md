@@ -54,11 +54,12 @@ I direct the **Cyber Identity & Behavior Research (CIBeR) Lab** at the Universit
 We study what it means for technology to *“know”* us—our **identity, behavior, and intentions**—and how to design systems that use that knowledge responsibly.
 
 Our work naturally spans multiple fields (e.g., mental health, defense, medicine, education, cybersecurity) and requires collaborative partnerships.  
+
 We care most about **why people behave the way they do in a digital world** and how those behaviors reflect *trust, risk, and decision-making*.
 
-> When someone gives a child a smartphone, we ask *why* and whether they understand the potential risks.  
-> When someone writes passwords on paper, we ask *why* and how we might teach cybersecurity in ways that fit real life.  
-> **The technology matters — but the *human reasons* behind actions matter more.**
+> When someone gives a child a smartphone, we ask *why* and what they believe the device will do for learning, safety, or connection — and whether they understand the risks.  
+> When someone writes passwords on paper, we ask *why* that strategy feels safer or easier — and what it tells us about trust, memory, and everyday cybersecurity decisions.
+> **The technology matters — but our work focuses on the *human reasons* behind actions.**
 
 Across domains—mental health and well-being, generative AI (e.g., ChatGPT), biometric and identity systems, and cybersecurity systems—our goal is always the same:
 
