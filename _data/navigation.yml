@@ -1,9 +1,12 @@
 # main links links
 main: 
     
-  - title: "Research"
+  - title: "The Lab"
     url: /research/
 
   - title: "Courses"
     url: /teaching/   
+
+- title: "Datasets"
+    url: /datasets/   
 
