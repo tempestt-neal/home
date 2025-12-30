@@ -124,6 +124,53 @@ Anticipating expectations, concerns, and equity considerations before systems ex
 
 ---
 
+## Lab Members
+
+<div class="research-section">
+
+<details open>
+<summary><strong>Active Members</strong></summary>
+
+### Ph.D. Students
+- **Tyree Lewis** — Ph.D. Student (Human–AI Interaction, Continuous Authentication)
+- **Wilson Lozano** — Ph.D. Student (Cybersecurity & Behavioral Biometrics)
+- **Parush [Last Name]** — Ph.D. Student (NLP & Deception Detection)
+- **Meghna Chaudhary** — Ph.D. Student (Sensing + Behavior; Human–AI Interaction)
+- **Hoorad Abootaebi** — Ph.D. Student (Qualitative Inquiry & User Perspectives in Emerging AI)
+
+### Master's Students
+- **[Name]** — M.S. Student (Biometric Intelligence & Multimodal Sensing)
+- **[Name]** — M.S. Student (Human-Centered Cybersecurity)
+- **[Name]** — M.S. Student (AI for Well-Being)
+
+### Undergraduate Researchers
+- **[Name]** — B.S. Student (Cyber Behavior & Identity)
+- **[Name]** — B.S. Student (Security Habits & Risk Perception)
+- **[Name]** — B.S. Student (LLM Interaction Patterns)
+
+</details>
+
+
+
+<details>
+<summary><strong>Lab Alumni</strong></summary>
+
+### Ph.D. Alumni
+- **[Name]**, Ph.D. — Now at **[Position, Company/University]**
+- **[Name]**, Ph.D. — Now at **[Position, Company/University]**
+
+### Master's Alumni
+- **[Name]**, M.S. — Now at **[Position, Company/University]**
+- **[Name]**, M.S. — Now at **[Position, Company/University]**
+
+### Undergraduate Alumni
+- **[Name]**, B.S. — Now at **[Graduate Program / Company]**
+- **[Name]**, B.S. — Now at **[Graduate Program / Company]**
+
+</details>
+
+</div>
+
 ## Interested in Joining the CIBeR Lab?
 
 > _Current funding is limited; we can only welcome new members with external fellowships._
