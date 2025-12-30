@@ -7,15 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
----
-layout: archive
-title: "Datasets"
-permalink: /datasets/
-author_profile: true
----
-
-{% include base_path %}
-
 Below is a curated list of datasets developed by the **Cyber Identity & Behavior Research (CIBeR) Lab** at the University of South Florida.  
 ---
 
@@ -27,15 +18,31 @@ Below is a curated list of datasets developed by the **Cyber Identity & Behavior
 </a>
 
 **Description:**  
-Motion and behavior signals captured using IMU sensors to study identity, intent, and biometric distinctiveness in digital interaction contexts.
+GestDoor contains wearable sensor data collected during **door-opening interactions** to support research in **motion-based authentication, behavioral biometrics, and gesture recognition**. Using **two 6-DOF IMUs** (wrist + upper arm), **11 participants** performed four task types across up to three sessions, producing **3,330 segmented samples** of accelerometer and gyroscope data sampled at **100 Hz**.
 
 **Includes:**  
-- Smartphone IMU
-- Wearable accelerometer + gyroscope  
-- Session-based movement tasks  
-- Annotated metadata
+- 6-axis acceleration + angular velocity (+ quaternions, timestamps)  
+- Four door-opening labels: `L_PUSH`, `L_PULL`, `R_PUSH`, `R_PULL`  
+- Participant/session metadata (age, sex, height, dominant hand, session count)  
+- Fully *segmented* samples — **no preprocessing required**
 
-**Use Cases:** continuous authentication, intent inference, biometric modeling
+**Suggested Uses:**  
+- Motion-based authentication  
+- Smartwatch and wearable security research  
+- Gesture and activity recognition  
+- Biometric permanence and cross-session analysis  
+- Behavioral signal modeling  
+- Sensor fusion experimentation
+
+**Usage Notes:**  
+- Files provided in **`.csv`** format  
+- Load using Python (`numpy`, `pandas`) or MATLAB  
+- Suitable for ML models (SVM, RF, KNN), signal-distance approaches (DTW), or feature pipelines  
+- Supports **intra-session** and **cross-session** evaluation protocols
+
+**Citation:**  
+> M. Ebraheem and T. Neal, "GestDoor: Gesture-Based User Authentication for Door Entries Utilizing Wearable IMUs," *2025 IEEE 19th International Conference on Automatic Face and Gesture Recognition (FG)*, Tampa/Clearwater, FL, USA, 2025, pp. 1-8, doi: 10.1109/FG61629.2025.11099107.
+
 
 ---
 
@@ -75,11 +82,8 @@ Mixed-methods dataset examining human reasoning behind cybersecurity decisions, 
 ---
 
 ## 📥 Requesting Access or Citing
-Researchers may contact **Dr. Tempestt Neal** for dataset access or collaboration inquiries.  
-When using CIBeR datasets, please include appropriate citations (provided upon request).
-
----
-
+You may contact **Dr. Tempestt Neal** for dataset access, as necessary, or collaboration inquiries.  
+When using CIBeR datasets, please include the appropriate citations.
 
 ---
 
