@@ -59,6 +59,7 @@ We care most about **why people behave the way they do in a digital world** and 
 
 > When someone gives a child a smartphone, we ask *why* and what they believe the device will do for learning, safety, or connection — and whether they understand the risks.  
 > When someone writes passwords on paper, we ask *why* that strategy feels safer or easier — and what it tells us about trust, memory, and everyday cybersecurity decisions.
+
 > **The technology matters — but our work focuses on the *human reasons* behind actions.**
 
 Across domains—mental health and well-being, generative AI (e.g., ChatGPT), biometric and identity systems, and cybersecurity systems—our goal is always the same:
@@ -97,28 +98,28 @@ How people interpret, trust, adopt, or reject intelligent systems; what drives d
 <summary>Cybersecurity & Identity Systems</summary>
 <br>
 Human-centered authentication, access, identity management, and usable security practices  
-*(e.g., password habits, risk awareness in everyday security decisions)*
+(e.g., password habits, risk awareness in everyday security decisions)
 </details>
 
 <details>
 <summary>Biometric Intelligence & Multimodal Sensing</summary>
 <br>
 Behavioral and physiological signals as markers of identity, intent, or state  
-*(e.g., keystrokes, gait, IMU motion, wearables for continuous authentication)*
+(e.g., keystrokes, gait, IMU motion, wearables for continuous authentication)
 </details>
 
 <details>
 <summary>Behavioral Signals in Digital Environments</summary>
 <br>
 How human behavior and choices reveal identity, deception, trust, or vulnerability online  
-*(e.g., cyber decision-making, intent inference, deception in text or interaction patterns)*
+(e.g., cyber decision-making, intent inference, deception in text or interaction patterns)
 </details>
 
 <details>
 <summary>User Perspectives on Emerging and Speculative Technologies</summary>
 <br>
 Anticipating expectations, concerns, and equity considerations before systems exist or scale  
-*(e.g., future biometric infrastructures, defense applications, healthcare AI readiness, educational AI impacts)*
+(e.g., future biometric infrastructures, defense applications, organizational AI readiness, educational AI impacts)
 </details>
 
 </div>
