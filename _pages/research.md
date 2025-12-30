@@ -130,6 +130,7 @@ Anticipating expectations, concerns, and equity considerations before systems ex
 
 <details open>
 <summary><strong>Active Members</strong></summary>
+<div markdown="1">
 
 ### Ph.D. Students
 
@@ -146,10 +147,12 @@ Anticipating expectations, concerns, and equity considerations before systems ex
 
 - **[Isadora Grasel](https://www.linkedin.com/in/isadoragrasel/)** — B.S. Student (Mis/Disinformation Detection Using Stylometry)
 
+</div>
 </details>
 
 <details>
 <summary><strong>Lab Alumni</strong></summary>
+<div markdown="1">
 
 ### Ph.D. Alumni
 
@@ -161,6 +164,7 @@ Anticipating expectations, concerns, and equity considerations before systems ex
 
 - **[Khadija Zanna](https://www.linkedin.com/in/khzanna/)**, M.S. — Now at **[Position, Company/University]**
 
+</div>
 </details>
 
 </div>
