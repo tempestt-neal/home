@@ -46,38 +46,48 @@ GestDoor contains wearable sensor data collected during **door-opening interacti
 
 ---
 
-### **Mobile Keystroke Dynamics Dataset**
-<a href="https://link-to-dataset" target="_blank">
-<img src="../images/datasets/keystroke_dataset.jpg" alt="Keystroke Dataset" width="200px" style="border-radius: 6px;" />
+### **CD3: Cross-Domain Deception Dataset**
+<a href="../images/datasets/cd3.png" target="_blank">
+<img src="../images/datasets/cd3.png" alt="Cross-Domain Deception Dataset (CD3)" width="200px" style="border-radius: 6px;" />
 </a>
 
 **Description:**  
-Behavioral biometrics dataset of mobile keystrokes collected across sessions to evaluate long-term consistency and variation in typing behavior.
+The **Cross-Domain Deception Dataset (CD3)** contains **frame-level visual features** extracted from interview video recordings to support research in **deception detection through facial expressions, action units, gaze, and body/hand gestures**. Using a commercial laptop and Microsoft Teams, **45 participants** completed mock interviews across two sessions, responding to questions about biography, academic success, and well-being.  
+The dataset provides **1,270 truthful** and **587 deceptive** clips, enabling cross-domain analysis of **how deception appears differently across content areas** and supporting research into **well-being–specific deception models**.
 
-**Includes:**  
-- Mobile fixed-text entry  
-- Free-text chat samples  
-- Timing gaps, key duration, error rates
+**Includes (983 frame-level features per sample):**
+- **Gaze:** 8 gaze features (direction vectors + angles)
+- **Landmarks:**  
+  - 136 × 2D facial landmarks  
+  - 204 × 3D facial landmarks  
+  - 112 × 2D eye landmarks  
+  - 168 × 3D eye landmarks  
+  - 140 × 2D face keypoints  
+- **Head Pose:** translation (x,y,z), rotation (pitch, yaw, roll)
+- **Face Shape:** 40 PCA-based shape parameters  
+- **Facial Action Units:** 35 total (18 presence, 17 intensity)
+- **Body & Hands:**  
+  - 50 body keypoints (2D)  
+  - 84 hand keypoints (2D)  
+- **Labels & Identifiers:** deception label (`1 = deceptive`, `0 = truthful`), participant ID (`PXXX`)
 
-**Use Cases:** behavioral biometrics, deception detection, authentication research
+**File Format:**  
+- Provided in **`.csv`** format  
+- Each row represents **one video frame** from a participant response
 
----
+**Suggested Uses:**  
+- Deception detection (cross-domain + well-being–specific)  
+- Action unit and gaze–based behavioral modeling  
+- Gesture and micro-expression analysis  
+- Domain adaptation and cross-domain inference  
+- Multimodal vision features for cognitive state estimation  
+- Representation learning for social/behavioral computing
 
-### **Cybersecurity Beliefs & Risk Behavior Survey Dataset**
-<a href="https://link-to-dataset" target="_blank">
-<img src="../images/datasets/cyber_behavior_dataset.jpg" alt="Cyber Risk Dataset" width="200px" style="border-radius: 6px;" />
-</a>
+**Educational & Research Use:**  
+Available for coursework, capstone projects, theses, and experimentation in **deception detection, behavioral modeling, and multimodal machine learning**.
 
-**Description:**  
-Mixed-methods dataset examining human reasoning behind cybersecurity decisions, including risk perception, password habits, and mental models of identity.
-
-**Includes:**  
-- Survey responses  
-- Interview data  
-- Behavior scenarios  
-- Demographic metadata
-
-**Use Cases:** usable security, risk communication, identity management design
+**Citation:**  
+> S. L. King and T. Neal, "Exploring Vision-Based Features for Detecting Deception in Well-Being: A Cross-Domain Comparison," **2025 IEEE 19th International Conference on Automatic Face and Gesture Recognition (FG)**, Tampa/Clearwater, FL, USA, 2025, pp. 1-10, doi: 10.1109/FG61629.2025.11099290.
 
 ---
 
