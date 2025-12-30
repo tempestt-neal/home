@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   arxiv            : # "https://arxiv.org/search/cs?query=Neal%2C+Tempestt&searchtype=author&abstracts=show&order=-announced_date_first&size=50"
-  googlescholar    : "https://scholar.google.com/citations?user=GopCh2QAAAAJ&hl=en&oi=ao"
+  googlescholar    : "https://scholar.google.com/citations?user=ECw1GR4AAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-6807-6277"
   semantic         : # URL
@@ -202,9 +202,6 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
   research:
     output: true
     permalink: /:collection/:path/
@@ -239,15 +236,6 @@ defaults:
       author_profile: true
       share: false
       comments: false
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _research
   - scope:
       path: ""
