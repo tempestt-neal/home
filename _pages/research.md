@@ -1,98 +1,179 @@
 ---
 layout: archive
-title: ""
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
 
+{% include base_path %}
+
 <style>
-  .gallery {
+  /* general spacing for readability */
+  .research-section { margin-bottom: 2rem; }
+
+  /* expandable section styling */
+  details {
+    border: 1px solid #adc178;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    background-color: #f7f8f4;
+    margin-bottom: 1rem;
+  }
+
+  summary {
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+
+  summary:hover {
+    color: #006747; /* USF green */
+  }
+
+  /* CIBeR banner image centering */
+  .ciber-banner {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 1.5rem;
   }
-  .gallery-item {
-    text-align: center;
-  }
-  .gallery-item img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; /* Adjust curvature as needed */
-    padding: 10px;
+
+  .ciber-banner img {
+    width: 60%;
   }
 </style>
 
-<div style="display: flex; justify-content: center;">
-    <img src="../images/Ciber-horizontal.png" width="90%">
+<div class="ciber-banner">
+    <img src="../images/Ciber-horizontal.png" alt="CIBER Lab Logo">
 </div>
 
-{% include base_path %}
-
-I direct the **C**yber **I**dentity and **Be**havior **R**esearch (CIBeR) Lab at the University of South Florida. We study what it means for technology to “know” us—our identity, our behavior, and our intentions—and how to design systems that use that knowledge responsibly. Because this question is broad and deeply human, our work naturally spans multiple fields, including mental health, defense, medicine, education, and cybersecurity. This research focus requires—and benefits from—highly collaborative, interdisciplinary partnerships. At the core, my lab is interested in why people behave the way they do in a digital world and what those behaviors tell us about trust, risk, and decision-making.
-
-If someone gives a child a smartphone, we want to know why and whether they understand the potential risks. If someone writes their passwords on paper, we want to know why and how to teach cybersecurity and identity management in ways that actually fit real life. We build AI systems and sensing technologies when needed, but the motivation begins with the human questions: what drives our decisions, what we believe about technology, and how those beliefs shape—and are shaped by—our interactions with intelligent systems.
-
-Our recent work applies this perspective to mental health and well-being, generative AI systems such as ChatGPT, biometric and identity technologies, and cybersecurity systems more broadly. Across these domains, our goal is the same: *to understand the dynamics of human–AI interaction and use that understanding to guide the design of systems that people can trust, use, and live with.*
-
-To answer these questions, we combine biometric intelligence (physiological and behavioral sensing), machine learning, and qualitative inquiry. We often collect signals from everyday technologies—phones, smartwatches, keyboards, and other devices—to understand how people behave and how identity or intent can be represented through movement, interaction, and language. We pair these data-driven approaches with interviews, surveys, focus groups, and user studies to learn why people make the choices they do and what they need from technology to feel safe, supported, and understood.
-
-We build and evaluate AI models, biometric systems, and security tools when doing so helps us uncover those patterns—or when existing systems don’t yet answer the questions we care about. We run longitudinal studies to observe how behaviors and attitudes change over time, and we design controlled experiments to isolate the effects of trust, stress, uncertainty, or perceived risk. In parallel, we examine emerging technologies such as generative AI and speculative AI systems to anticipate future challenges.
-
-Across these methods, our goal is not just to measure behavior or build systems, but to connect what technology can detect with what people actually experience, and to translate those insights into technologies that are secure, usable, and aligned with human needs.
-
-# Interesting in Joining the CIBeR Lab?
 ---
 
-_Currently, we do not have funding and can only welcome you if you have a fellowship._
+## Our Research Focus
 
-## **Interested Ph.D. Students**
-Ph.D. students with experience in one or more of the following research areas are encouraged to send their application materials (listed below) to Dr. Neal via e-mail.
+I direct the **Cyber Identity & Behavior Research (CIBeR) Lab** at the University of South Florida.  
+We study what it means for technology to *“know”* us—our **identity, behavior, and intentions**—and how to design systems that use that knowledge responsibly.
 
-- Machine and deep learning / pattern recognition systems
+Our work naturally spans multiple fields (e.g., mental health, defense, medicine, education, cybersecurity) and requires collaborative partnerships.  
+We care most about **why people behave the way they do in a digital world** and how those behaviors reflect *trust, risk, and decision-making*.
+
+> When someone gives a child a smartphone, we ask *why* and whether they understand the potential risks.  
+> When someone writes passwords on paper, we ask *why* and how we might teach cybersecurity in ways that fit real life.  
+> **The technology matters — but the *human reasons* behind actions matter more.**
+
+Across domains—mental health and well-being, generative AI (e.g., ChatGPT), biometric and identity systems, and cybersecurity systems—our goal is always the same:
+
+> **to understand human–AI interaction and use that understanding to guide the design of systems that people can trust, use, and live with.**
+
+---
+
+## How We Do This
+
+We combine **biometric intelligence**, **machine learning**, and **qualitative inquiry** to understand human behavior in digital and intelligent systems.
+
+- We collect signals from everyday devices (phones, smartwatches, keyboards, IMUs).
+- We pair sensing with interviews, surveys, focus groups, and user studies.
+- We build and evaluate models when needed to reveal or test behavioral patterns.
+- We run longitudinal studies to observe behavior over time and under evolving risks.
+- We explore emerging and speculative AI systems to anticipate future challenges.
+
+> **Our goal is not just to measure behavior or build systems —  
+> but to *connect what technology detects with what people experience*.**
+
+---
+
+## Core Research Areas
+
+<div class="research-section">
+
+<details open>
+<summary>Human–AI Interaction & Behavior</summary>
+<br>
+How people interpret, trust, adopt, or reject intelligent systems; what drives digital behaviors and decision-making  
+*(e.g., interactions with generative models like ChatGPT, trust and explainability in AI tools)*
+</details>
+
+<details>
+<summary>Cybersecurity & Identity Systems</summary>
+<br>
+Human-centered authentication, access, identity management, and usable security practices  
+*(e.g., password habits, risk awareness in everyday security decisions)*
+</details>
+
+<details>
+<summary>Biometric Intelligence & Multimodal Sensing</summary>
+<br>
+Behavioral and physiological signals as markers of identity, intent, or state  
+*(e.g., keystrokes, gait, IMU motion, wearables for continuous authentication)*
+</details>
+
+<details>
+<summary>Behavioral Signals in Digital Environments</summary>
+<br>
+How human behavior and choices reveal identity, deception, trust, or vulnerability online  
+*(e.g., cyber decision-making, intent inference, deception in text or interaction patterns)*
+</details>
+
+<details>
+<summary>User Perspectives on Emerging and Speculative Technologies</summary>
+<br>
+Anticipating expectations, concerns, and equity considerations before systems exist or scale  
+*(e.g., future biometric infrastructures, defense applications, healthcare AI readiness, educational AI impacts)*
+</details>
+
+</div>
+
+---
+
+## Interested in Joining the CIBeR Lab?
+
+> _Current funding is limited; we can only welcome new members with external fellowships._
+
+<details>
+<summary><strong>Interested Ph.D. Students</strong></summary>
+<br>
+
+Ph.D. students with experience in one or more of the following are encouraged to email Dr. Neal (include materials below):
+
+- Machine/deep learning, pattern recognition
 - Statistical analysis
 - Image processing / computer vision
 - Qualitative data analysis methods
-- Natural language processing
-- Proficiency in Python, TensorFlow, Keras, Sci-kit Learn
+- NLP
+- Python, TensorFlow, Keras, Sci-kit Learn
 - Cloud storage
 - Data mining
 
-Ph.D students must be able and willing to:
-- Support undergraduate students and serve as mentors
-- Work toward effective communication of their research (e.g., presentation and writing skills)
-- Work peacefully and productively in a team environment
-  
-Interested Ph.D. students should submit the following materials via e-mail for consideration.
-- A brief summary of two projects (can be coursework or something you have completed on a job or your own) that you are most proud of, and what your contributions were to the project.
-- Your views on the on-going research in the CIBeR lab that appeals to you the most. This requires that you familiarize yourself with our research projects. I'd like your input on our current research strategies, and how you feel you might be able to expand or contribute to these efforts.
-- List of courses taken with final grades.
-- Degree you are currently pursuing and expected start date at USF.
-- Updated CV and publications, presentation slides, etc, if available.
-- Link to personal website.
+Ph.D. expectations:
+- Mentor undergraduate students
+- Communicate research effectively
+- Work collaboratively and productively
 
-## **Interested Masters Students**
-M.S. students seeking a thesis advisor are encouraged to reach out to Dr. Neal no later than the middle of their first semester in the M.S. program.
-  
-## **Interested Undergraduate Students**
-If you are an undergraduate student interested in gaining hands-on research experience, you should **strongly** consider enrolling in one of the following courses to facilitate your involvement in our lab:
+Email materials:
+1. Summary of two projects & your contributions  
+2. Your perspective on CIBeR lab work & how you'd expand it  
+3. Coursework + final grades  
+4. Degree + expected start date at USF  
+5. Updated CV + publications/slides if available  
+6. **Link to personal website**
+</details>
 
-**For Computer Science and Computer Engineering Majors:**
+<details>
+<summary><strong>Interested Master's Students</strong></summary>
+<br>
+M.S. students seeking a thesis advisor should reach out no later than **mid-first semester**.
+</details>
 
-- _[Contract Form for Independent Study (CIS 4900):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
-This course allows students to work on a project in an area not typically covered by department courses. Independent Study can be used for elective credit but cannot substitute for required classes. To register, you must complete a contract with a supervising professor and have it approved by the Undergraduate Director or designee.
+<details>
+<summary><strong>Interested Undergraduate Students</strong></summary>
+<br>
 
-- _[Contract Form for Supervised Research (CIS 4915):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
-This course provides an opportunity for supervised research experience for elective credit. You’ll need to establish a contract with your supervising professor and obtain approval from the Undergraduate Director or designee to register.
+To join the lab, undergraduates should enroll in one of the following to gain structured research experience:
 
-**For Information Technology and Cybersecurity Majors:**
+- **Independent Study (CIS 4900 / COP 4900)**
+- **Supervised Research (CIS 4915)**
 
-- _[Contract Form for Independent Study (COP 4900):](https://www.usf.edu/engineering/cse/undergraduate/dept-forms.aspx)_
-Similar to CIS 4900, this course is for projects outside of typical classroom courses and can count as an elective credit. A contract signed by the supervising professor and approved by the Undergraduate Director or designee is required.
+> **Plan ahead.** Scheduling must align with course registration timelines.
 
-### Important Considerations:
+Funding is typically not available for undergraduates, but **students who continue into graduate research often secure long-term assistantships.**
 
-- _Plan Ahead:_ You must align with the university's course registration timeline. Schedule a meeting with me the semester before you wish to join the lab to discuss your interests and determine if enrolling in one of these courses is right for you. Requests made during the semester you wish to engage in the lab are harder to honor due to lab activity and potential disruptions.
-
-- _Review Our Projects:_ Before reaching out, carefully review our ongoing projects to ensure they align with your interests. If they do not, I encourage you to seek opportunities better suited to your goals.
-
-- _Funding:_ Please note that I typically do not offer funded assistantships to undergraduate students. However, participation in our lab has paved the way for long-term research assistantship opportunities for those who choose to pursue graduate studies with us.
+</details>
